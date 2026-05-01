@@ -178,7 +178,7 @@ function renderRow(item) {
   var imgUrl = item.stockcode ? getImageUrl(item.stockcode) : null;
   var prodUrl = item.stockcode ? getProductUrl(item.stockcode) : '#';
   return '<tr><td><div class="product-cell">' +
-    (imgUrl ? '<img src="' + imgUrl + '" class="product-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="product-img-fallback" style="display:none">📦</div>' : '<div class="product-img-fallback">📦</div>') +
+    (imgUrl ? '<img src="' + imgUrl + '" class="product-img" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><div class="product-img-fallback" style="display:none">📦</div>' : '<div class="product-img-fallback">📦</div>') +
     '<div style="min-width:0"><div class="product-name" title="' + item.name.replace(/"/g, '&quot;') + '">' + item.name + '</div><a href="' + prodUrl + '" class="product-link" target="_blank" rel="noopener">Woolworths ↗</a></div></div></td>' +
     '<td><span class="discount-badge ' + dc + '">' + pctStr + '</span></td>' +
     '<td><span class="price">$' + item.current_price.toFixed(2) + '</span></td>' +
