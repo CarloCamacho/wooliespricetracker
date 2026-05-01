@@ -1,0 +1,4346 @@
+[
+  {
+    "date": "2026-04-30T19:19:36.118742",
+    "items": [
+      {
+        "item": "Golden crumpets round 6 pack",
+        "quantity": 1,
+        "invoice_price": 2.4,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Mission carb balance original wraps pdm 6 pack",
+        "quantity": 2,
+        "invoice_price": 6.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Deep cove sardines in springwater pdm 125g",
+        "quantity": 2,
+        "invoice_price": 1.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "John west tuna chunks in springwater pdm 95g",
+        "quantity": 1,
+        "invoice_price": 1.45,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Eclipse peppermint sugar free mints tin 40g",
+        "quantity": 2,
+        "invoice_price": 3.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Eclipse spearmint sugar free mints tin 40g",
+        "quantity": 2,
+        "invoice_price": 3.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Eclipse strawberry sugar free mints tin 40g",
+        "quantity": 1,
+        "invoice_price": 3.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Chobani greek yoghurt natural light plain 907g",
+        "quantity": 1,
+        "invoice_price": 7.9,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Harvey fresh lactose free hilo milk pdm 2l",
+        "quantity": 2,
+        "invoice_price": 6.2,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Pauls plus protein dairy snack vanilla 160g",
+        "quantity": 2,
+        "invoice_price": 2.45,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths light thickened cream 300ml",
+        "quantity": 1,
+        "invoice_price": 3.4,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Nestle carnation light & creamy evaporated milk 340ml",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Coca-cola zero sugar soft drink multipack cans 375ml x 10 pack",
+        "quantity": 1,
+        "invoice_price": 10.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot cheeseburger pasta pdm 350g",
+        "quantity": 2,
+        "invoice_price": 11.95,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot korean beef & noodles 350g",
+        "quantity": 2,
+        "invoice_price": 11.95,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths potato minis 1kg",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Red capsicum pdm each",
+        "quantity": 1,
+        "invoice_price": 3.23,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths baby leaf spinach 120g",
+        "quantity": 1,
+        "invoice_price": 2.7,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths chili lime salad kit pdm 350g",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths honey mustard salad kit pdm 285g",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths iceberg shredded lettuce pdm 200g",
+        "quantity": 1,
+        "invoice_price": 2.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths mushroom sliced pdm 500g",
+        "quantity": 1,
+        "invoice_price": 7.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Select smooth peanut butter 500g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Vetta smart protein spirals pasta pdm 375g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Mt barker free range roasted carved chicken breast 220g",
+        "quantity": 2,
+        "invoice_price": 7.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Mt barker lemon & herb greek style sliced chicken 220g",
+        "quantity": 2,
+        "invoice_price": 7.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Strength meals co beef tortellini bolognese 350g",
+        "quantity": 2,
+        "invoice_price": 8.95,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Strength meals co classic chicken dinner with gravy 350g",
+        "quantity": 2,
+        "invoice_price": 8.95,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Dine adult wet cat food saucy morsels with salmon trays 85g x 7 pack",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Dine adult wet cat food saucy morsels with tuna & cheese 85g x 7 pack",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Masterfoods mild american mustard pdm 250g",
+        "quantity": 1,
+        "invoice_price": 3.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Nando's perinaise mild peri-peri mayonnaise sauce 465g",
+        "quantity": 1,
+        "invoice_price": 7.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Dairyworks cheddar slices value 32 pack",
+        "quantity": 1,
+        "invoice_price": 8.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths tasty cheese shredded 250g",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Snickers frozen dessert bars pdm 5 pack",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "onion shallot french pdm each",
+        "quantity": 1,
+        "invoice_price": 0.6,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Finish ultimate dishwashing tablets lemon 70 pack",
+        "quantity": 1,
+        "invoice_price": 32.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths arborio risotto rice pdm 1kg",
+        "quantity": 1,
+        "invoice_price": 4.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths pasta macaroni 500g",
+        "quantity": 1,
+        "invoice_price": 1.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Moccona freeze dried instant coffee classic dark roast 200g",
+        "quantity": 1,
+        "invoice_price": 23.6,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Bow wow pig ears dog treats 5 pack",
+        "quantity": 1,
+        "invoice_price": 11.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Ingham's tempura style nuggets pdm 1kg",
+        "quantity": 1,
+        "invoice_price": 11.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot bang bang chicken & rice 350g",
+        "quantity": 2,
+        "invoice_price": 8.35,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot bbq chicken mac & cheese 350g",
+        "quantity": 2,
+        "invoice_price": 8.35,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Jalna pot set fat free yoghurt 1kg",
+        "quantity": 1,
+        "invoice_price": 7.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Mondeli australian made leg ham pdm 100g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Mondeli premium australian prosciutto pdm 80g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths asian salad bowl pdm 230g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Carnarvon bananas pdm 750g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Mission low gi wraps wholemeal 6 pack",
+        "quantity": 1,
+        "invoice_price": 5.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths lower carb potatoes pdm 1.5kg",
+        "quantity": 1,
+        "invoice_price": 5.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths carrots peas & corn 1kg",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Red rock deli potato chips party bag honey soy & chicken 290g",
+        "quantity": 1,
+        "invoice_price": 4.25,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Campbell's real stock chicken pdm 1l",
+        "quantity": 1,
+        "invoice_price": 4.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Essentials french fries pdm 1kg",
+        "quantity": 1,
+        "invoice_price": 3.8,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Pauls plus protein chocolate yoghurt pdm 160g",
+        "quantity": 1,
+        "invoice_price": 3.1,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Yopro perform high protein yoghurt mango passionfruit 175g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Yopro perform high protein yoghurt mixed berry 175g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Yopro perform high protein yoghurt strawberry 175g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths gourmet leaf mix pdm 120g",
+        "quantity": 1,
+        "invoice_price": 2.7,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths spreadable light cream cheese pdm 250g",
+        "quantity": 1,
+        "invoice_price": 2.6,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths broccolini bunch pdm each",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Doritos corn chips cheese supreme share pack 170g",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Thins chips salt & vinegar 175g",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Pandaroo coconut milk 400ml",
+        "quantity": 1,
+        "invoice_price": 2.25,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Frisp edamame beans pdm 200g",
+        "quantity": 1,
+        "invoice_price": 2.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Essentials tomato paste pdm 500g",
+        "quantity": 1,
+        "invoice_price": 1.4,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Kettle sea salt & vinegar chips chips 165g",
+        "quantity": 1,
+        "invoice_price": 3.9,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Vege chips barbeque pdm 100g",
+        "quantity": 1,
+        "invoice_price": 1.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      }
+    ]
+  },
+  {
+    "date": "2026-04-30T19:22:07.537431",
+    "items": [
+      {
+        "item": "Golden crumpets round 6 pack",
+        "quantity": 1,
+        "invoice_price": 2.4,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Mission carb balance original wraps pdm 6 pack",
+        "quantity": 2,
+        "invoice_price": 6.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Deep cove sardines in springwater pdm 125g",
+        "quantity": 2,
+        "invoice_price": 1.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "John west tuna chunks in springwater pdm 95g",
+        "quantity": 1,
+        "invoice_price": 1.45,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Eclipse peppermint sugar free mints tin 40g",
+        "quantity": 2,
+        "invoice_price": 3.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Eclipse spearmint sugar free mints tin 40g",
+        "quantity": 2,
+        "invoice_price": 3.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Eclipse strawberry sugar free mints tin 40g",
+        "quantity": 1,
+        "invoice_price": 3.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Chobani greek yoghurt natural light plain 907g",
+        "quantity": 1,
+        "invoice_price": 7.9,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Harvey fresh lactose free hilo milk pdm 2l",
+        "quantity": 2,
+        "invoice_price": 6.2,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Pauls plus protein dairy snack vanilla 160g",
+        "quantity": 2,
+        "invoice_price": 2.45,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths light thickened cream 300ml",
+        "quantity": 1,
+        "invoice_price": 3.4,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Nestle carnation light & creamy evaporated milk 340ml",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Coca-cola zero sugar soft drink multipack cans 375ml x 10 pack",
+        "quantity": 1,
+        "invoice_price": 10.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot cheeseburger pasta pdm 350g",
+        "quantity": 2,
+        "invoice_price": 11.95,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot korean beef & noodles 350g",
+        "quantity": 2,
+        "invoice_price": 11.95,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths potato minis 1kg",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Red capsicum pdm each",
+        "quantity": 1,
+        "invoice_price": 3.23,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths baby leaf spinach 120g",
+        "quantity": 1,
+        "invoice_price": 2.7,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths chili lime salad kit pdm 350g",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths honey mustard salad kit pdm 285g",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths iceberg shredded lettuce pdm 200g",
+        "quantity": 1,
+        "invoice_price": 2.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths mushroom sliced pdm 500g",
+        "quantity": 1,
+        "invoice_price": 7.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Select smooth peanut butter 500g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Vetta smart protein spirals pasta pdm 375g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Mt barker free range roasted carved chicken breast 220g",
+        "quantity": 2,
+        "invoice_price": 7.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Mt barker lemon & herb greek style sliced chicken 220g",
+        "quantity": 2,
+        "invoice_price": 7.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Strength meals co beef tortellini bolognese 350g",
+        "quantity": 2,
+        "invoice_price": 8.95,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Strength meals co classic chicken dinner with gravy 350g",
+        "quantity": 2,
+        "invoice_price": 8.95,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Dine adult wet cat food saucy morsels with salmon trays 85g x 7 pack",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Dine adult wet cat food saucy morsels with tuna & cheese 85g x 7 pack",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Masterfoods mild american mustard pdm 250g",
+        "quantity": 1,
+        "invoice_price": 3.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Nando's perinaise mild peri-peri mayonnaise sauce 465g",
+        "quantity": 1,
+        "invoice_price": 7.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Dairyworks cheddar slices value 32 pack",
+        "quantity": 1,
+        "invoice_price": 8.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths tasty cheese shredded 250g",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Snickers frozen dessert bars pdm 5 pack",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "onion shallot french pdm each",
+        "quantity": 1,
+        "invoice_price": 0.6,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Finish ultimate dishwashing tablets lemon 70 pack",
+        "quantity": 1,
+        "invoice_price": 32.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths arborio risotto rice pdm 1kg",
+        "quantity": 1,
+        "invoice_price": 4.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths pasta macaroni 500g",
+        "quantity": 1,
+        "invoice_price": 1.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Moccona freeze dried instant coffee classic dark roast 200g",
+        "quantity": 1,
+        "invoice_price": 23.6,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Bow wow pig ears dog treats 5 pack",
+        "quantity": 1,
+        "invoice_price": 11.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Ingham's tempura style nuggets pdm 1kg",
+        "quantity": 1,
+        "invoice_price": 11.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot bang bang chicken & rice 350g",
+        "quantity": 2,
+        "invoice_price": 8.35,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot bbq chicken mac & cheese 350g",
+        "quantity": 2,
+        "invoice_price": 8.35,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Jalna pot set fat free yoghurt 1kg",
+        "quantity": 1,
+        "invoice_price": 7.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Mondeli australian made leg ham pdm 100g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Mondeli premium australian prosciutto pdm 80g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths asian salad bowl pdm 230g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Carnarvon bananas pdm 750g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Mission low gi wraps wholemeal 6 pack",
+        "quantity": 1,
+        "invoice_price": 5.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths lower carb potatoes pdm 1.5kg",
+        "quantity": 1,
+        "invoice_price": 5.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths carrots peas & corn 1kg",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Red rock deli potato chips party bag honey soy & chicken 290g",
+        "quantity": 1,
+        "invoice_price": 4.25,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Campbell's real stock chicken pdm 1l",
+        "quantity": 1,
+        "invoice_price": 4.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Essentials french fries pdm 1kg",
+        "quantity": 1,
+        "invoice_price": 3.8,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Pauls plus protein chocolate yoghurt pdm 160g",
+        "quantity": 1,
+        "invoice_price": 3.1,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Yopro perform high protein yoghurt mango passionfruit 175g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Yopro perform high protein yoghurt mixed berry 175g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Yopro perform high protein yoghurt strawberry 175g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths gourmet leaf mix pdm 120g",
+        "quantity": 1,
+        "invoice_price": 2.7,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths spreadable light cream cheese pdm 250g",
+        "quantity": 1,
+        "invoice_price": 2.6,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths broccolini bunch pdm each",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Doritos corn chips cheese supreme share pack 170g",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Thins chips salt & vinegar 175g",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Pandaroo coconut milk 400ml",
+        "quantity": 1,
+        "invoice_price": 2.25,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Frisp edamame beans pdm 200g",
+        "quantity": 1,
+        "invoice_price": 2.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Essentials tomato paste pdm 500g",
+        "quantity": 1,
+        "invoice_price": 1.4,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Kettle sea salt & vinegar chips chips 165g",
+        "quantity": 1,
+        "invoice_price": 3.9,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Vege chips barbeque pdm 100g",
+        "quantity": 1,
+        "invoice_price": 1.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      }
+    ]
+  },
+  {
+    "date": "2026-04-30T19:56:53.306630",
+    "items": [
+      {
+        "item": "Golden crumpets round 6 pack",
+        "quantity": 1,
+        "invoice_price": 2.4,
+        "current_price": null,
+        "product_name": "Golden Crumpets Round 6 pack",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Mission carb balance original wraps pdm 6 pack",
+        "quantity": 2,
+        "invoice_price": 6.5,
+        "current_price": null,
+        "product_name": "Mission Carb Balance Original Wraps 6 pack",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Deep cove sardines in springwater pdm 125g",
+        "quantity": 2,
+        "invoice_price": 1.0,
+        "current_price": null,
+        "product_name": "Deep Cove Sardines In Springwater 125g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "John west tuna chunks in springwater pdm 95g",
+        "quantity": 1,
+        "invoice_price": 1.45,
+        "current_price": null,
+        "product_name": "John West Tuna Chunks In Springwater 95g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Eclipse peppermint sugar free mints tin 40g",
+        "quantity": 2,
+        "invoice_price": 3.5,
+        "current_price": null,
+        "product_name": "Eclipse Peppermint Sugar Free Mints Tin 40g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Eclipse spearmint sugar free mints tin 40g",
+        "quantity": 2,
+        "invoice_price": 3.5,
+        "current_price": null,
+        "product_name": "Eclipse Spearmint Sugar Free Mints Tin 40g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Eclipse strawberry sugar free mints tin 40g",
+        "quantity": 1,
+        "invoice_price": 3.5,
+        "current_price": null,
+        "product_name": "Eclipse Strawberry Sugar Free Mints Tin 40g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Chobani greek yoghurt natural light plain 907g",
+        "quantity": 1,
+        "invoice_price": 7.9,
+        "current_price": null,
+        "product_name": "Chobani Greek Yoghurt Natural Light Plain 907g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Harvey fresh lactose free hilo milk pdm 2l",
+        "quantity": 2,
+        "invoice_price": 6.2,
+        "current_price": null,
+        "product_name": "Harvey Fresh Lactose Free HiLo Milk 2L",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Pauls plus protein dairy snack vanilla 160g",
+        "quantity": 2,
+        "invoice_price": 2.45,
+        "current_price": null,
+        "product_name": "Pauls Plus Protein Dairy Snack Vanilla 160g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths light thickened cream 300ml",
+        "quantity": 1,
+        "invoice_price": 3.4,
+        "current_price": null,
+        "product_name": "Woolworths Light Thickened Cream 300mL",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Nestle carnation light & creamy evaporated milk 340ml",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "product_name": "Nestle Carnation Light & Creamy Evaporated Milk 340mL",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Coca-cola zero sugar soft drink multipack cans 375ml x 10 pack",
+        "quantity": 1,
+        "invoice_price": 10.5,
+        "current_price": null,
+        "product_name": "Coca-Cola Zero Sugar Soft Drink Multipack Cans 375mL x 10 pack",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Fropro protein pot cheeseburger pasta pdm 350g",
+        "quantity": 2,
+        "invoice_price": 11.95,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot korean beef & noodles 350g",
+        "quantity": 2,
+        "invoice_price": 11.95,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths potato minis 1kg",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "product_name": "Woolworths Potato Minis 1kg",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Red capsicum pdm each",
+        "quantity": 1,
+        "invoice_price": 3.23,
+        "current_price": null,
+        "product_name": "Red Capsicum each",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths baby leaf spinach 120g",
+        "quantity": 1,
+        "invoice_price": 2.7,
+        "current_price": null,
+        "product_name": "Woolworths Baby Leaf Spinach 120g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths chili lime salad kit pdm 350g",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "product_name": "Woolworths Chili Lime Salad Kit 350g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths honey mustard salad kit pdm 285g",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "product_name": "Woolworths Honey Mustard Salad Kit 285g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths iceberg shredded lettuce pdm 200g",
+        "quantity": 1,
+        "invoice_price": 2.0,
+        "current_price": null,
+        "product_name": "Woolworths Iceberg Shredded Lettuce 200g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths mushroom sliced pdm 500g",
+        "quantity": 1,
+        "invoice_price": 7.0,
+        "current_price": null,
+        "product_name": "Woolworths Mushroom Sliced 500g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Select smooth peanut butter 500g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "product_name": "Woolworths Smooth Peanut Butter 500g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Vetta smart protein spirals pasta pdm 375g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "product_name": "Vetta SMART Protein Spirals Pasta 375g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Mt barker free range roasted carved chicken breast 220g",
+        "quantity": 2,
+        "invoice_price": 7.0,
+        "current_price": null,
+        "product_name": "Mt Barker Free Range Roasted Carved Chicken Breast 220g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Mt barker lemon & herb greek style sliced chicken 220g",
+        "quantity": 2,
+        "invoice_price": 7.0,
+        "current_price": null,
+        "product_name": "Mt Barker Lemon & Herb Greek Style Sliced Chicken 220g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Strength meals co beef tortellini bolognese 350g",
+        "quantity": 2,
+        "invoice_price": 8.95,
+        "current_price": null,
+        "product_name": "Strength Meals Co Beef Tortellini Bolognese 350g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Strength meals co classic chicken dinner with gravy 350g",
+        "quantity": 2,
+        "invoice_price": 8.95,
+        "current_price": null,
+        "product_name": "Strength Meals Co Classic Chicken Dinner With Gravy 350g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Dine adult wet cat food saucy morsels with salmon trays 85g x 7 pack",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "product_name": "Dine Adult Wet Cat Food Saucy Morsels with Salmon Trays 85g x 7 pack",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Dine adult wet cat food saucy morsels with tuna & cheese 85g x 7 pack",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "product_name": "Dine Adult Wet Cat Food Saucy Morsels with Tuna & Cheese 85g x 7 pack",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Masterfoods mild american mustard pdm 250g",
+        "quantity": 1,
+        "invoice_price": 3.5,
+        "current_price": null,
+        "product_name": "MasterFoods Mild American Mustard 250g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Nando's perinaise mild peri-peri mayonnaise sauce 465g",
+        "quantity": 1,
+        "invoice_price": 7.5,
+        "current_price": null,
+        "product_name": "Nando's Perinaise Mild Peri-Peri Mayonnaise Sauce 465g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Dairyworks cheddar slices value 32 pack",
+        "quantity": 1,
+        "invoice_price": 8.0,
+        "current_price": null,
+        "product_name": "Dairyworks Cheddar Slices Value 32 pack",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths tasty cheese shredded 250g",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "product_name": "Woolworths Tasty Cheese Shredded 250g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Snickers frozen dessert bars pdm 5 pack",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": null,
+        "product_name": "Snickers Gold Frozen Dessert Bar 5 pack",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "onion shallot french pdm each",
+        "quantity": 1,
+        "invoice_price": 0.6,
+        "current_price": null,
+        "product_name": "Onion Shallot French each",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Finish ultimate dishwashing tablets lemon 70 pack",
+        "quantity": 1,
+        "invoice_price": 32.0,
+        "current_price": null,
+        "product_name": "Finish Ultimate Dishwashing Tablets Lemon 70 pack",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths arborio risotto rice pdm 1kg",
+        "quantity": 1,
+        "invoice_price": 4.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths pasta macaroni 500g",
+        "quantity": 1,
+        "invoice_price": 1.0,
+        "current_price": null,
+        "product_name": "Woolworths Pasta Macaroni 500g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Moccona freeze dried instant coffee classic dark roast 200g",
+        "quantity": 1,
+        "invoice_price": 23.6,
+        "current_price": null,
+        "product_name": "Moccona Freeze Dried Instant Coffee Classic Dark Roast 200g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Bow wow pig ears dog treats 5 pack",
+        "quantity": 1,
+        "invoice_price": 11.0,
+        "current_price": null,
+        "product_name": "Bow Wow Pig Ears Dog Treats 5 pack",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Ingham's tempura style nuggets pdm 1kg",
+        "quantity": 1,
+        "invoice_price": 11.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot bang bang chicken & rice 350g",
+        "quantity": 2,
+        "invoice_price": 8.35,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot bbq chicken mac & cheese 350g",
+        "quantity": 2,
+        "invoice_price": 8.35,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Jalna pot set fat free yoghurt 1kg",
+        "quantity": 1,
+        "invoice_price": 7.0,
+        "current_price": null,
+        "product_name": "Jalna Pot Set 99% Fat Free Yoghurt 1kg",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Mondeli australian made leg ham pdm 100g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": null,
+        "product_name": "MonDeli Australian Made Leg Ham 100g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Mondeli premium australian prosciutto pdm 80g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": null,
+        "product_name": "MonDeli Premium Australian Prosciutto 80g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths asian salad bowl pdm 230g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": null,
+        "product_name": "Woolworths Asian Salad Bowl 230g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Carnarvon bananas pdm 750g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Mission low gi wraps wholemeal 6 pack",
+        "quantity": 1,
+        "invoice_price": 5.5,
+        "current_price": null,
+        "product_name": "Mission Low Gi Wraps Wholemeal 6 pack",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths lower carb potatoes pdm 1.5kg",
+        "quantity": 1,
+        "invoice_price": 5.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths carrots peas & corn 1kg",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": null,
+        "product_name": "Woolworths Carrots Peas & Corn 1kg",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Red rock deli potato chips party bag honey soy & chicken 290g",
+        "quantity": 1,
+        "invoice_price": 4.25,
+        "current_price": null,
+        "product_name": "Red Rock Deli Potato Chips Honey Soy & Chicken 290g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Campbell's real stock chicken pdm 1l",
+        "quantity": 1,
+        "invoice_price": 4.0,
+        "current_price": null,
+        "product_name": "Campbell's Real Stock Chicken 1L",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Essentials french fries pdm 1kg",
+        "quantity": 1,
+        "invoice_price": 3.8,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Pauls plus protein chocolate yoghurt pdm 160g",
+        "quantity": 1,
+        "invoice_price": 3.1,
+        "current_price": null,
+        "product_name": "Pauls Plus Protein Chocolate Yoghurt 160g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Yopro perform high protein yoghurt mango passionfruit 175g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "product_name": "YoPRO Perform High Protein Yoghurt Mango Passionfruit 175g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Yopro perform high protein yoghurt mixed berry 175g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "product_name": "YoPRO Perform High Protein Yoghurt Mixed Berry 175g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Yopro perform high protein yoghurt strawberry 175g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "product_name": "YoPRO Perform High Protein Yoghurt Strawberry 175g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths gourmet leaf mix pdm 120g",
+        "quantity": 1,
+        "invoice_price": 2.7,
+        "current_price": null,
+        "product_name": "Woolworths Gourmet Leaf Mix 120g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths spreadable light cream cheese pdm 250g",
+        "quantity": 1,
+        "invoice_price": 2.6,
+        "current_price": null,
+        "product_name": "Woolworths Spreadable Light Cream Cheese 250g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths broccolini bunch pdm each",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": null,
+        "product_name": "Woolworths Broccolini Bunch each",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Doritos corn chips cheese supreme share pack 170g",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": null,
+        "product_name": "Doritos Corn Chips Cheese Supreme Share Pack 170g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Thins chips salt & vinegar 175g",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": null,
+        "product_name": "Thins Chips Salt & Vinegar 175g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Pandaroo coconut milk 400ml",
+        "quantity": 1,
+        "invoice_price": 2.25,
+        "current_price": null,
+        "product_name": "Pandaroo Coconut Milk 400mL",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Frisp edamame beans pdm 200g",
+        "quantity": 1,
+        "invoice_price": 2.0,
+        "current_price": null,
+        "product_name": "Frisp Edamame Beans 200g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Essentials tomato paste pdm 500g",
+        "quantity": 1,
+        "invoice_price": 1.4,
+        "current_price": null,
+        "product_name": "Essentials Tomato Paste 500g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Kettle sea salt & vinegar chips chips 165g",
+        "quantity": 1,
+        "invoice_price": 3.9,
+        "current_price": null,
+        "product_name": "Kettle Sea Salt & Vinegar Potato Chips 165g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      },
+      {
+        "item": "Vege chips barbeque pdm 100g",
+        "quantity": 1,
+        "invoice_price": 1.5,
+        "current_price": null,
+        "product_name": "Vege Chips Barbeque 100g",
+        "stockcode": "",
+        "status": "found",
+        "was_price": null,
+        "is_special": false
+      }
+    ]
+  },
+  {
+    "date": "2026-04-30T20:00:27.392433",
+    "items": [
+      {
+        "item": "Golden crumpets round 6 pack",
+        "quantity": 1,
+        "invoice_price": 2.4,
+        "current_price": 2.4,
+        "product_name": "Golden Crumpets Round 6 pack",
+        "stockcode": "49622",
+        "status": "found",
+        "was_price": 4.8,
+        "is_special": true
+      },
+      {
+        "item": "Mission carb balance original wraps pdm 6 pack",
+        "quantity": 2,
+        "invoice_price": 6.5,
+        "current_price": 5,
+        "product_name": "Mission Carb Balance Original Wraps 6 pack",
+        "stockcode": "919345",
+        "status": "found",
+        "was_price": 6.5,
+        "is_special": true
+      },
+      {
+        "item": "Deep cove sardines in springwater pdm 125g",
+        "quantity": 2,
+        "invoice_price": 1.0,
+        "current_price": null,
+        "product_name": "Deep Cove Sardines In Springwater 125g",
+        "stockcode": "83235",
+        "status": "found",
+        "was_price": 1,
+        "is_special": false
+      },
+      {
+        "item": "John west tuna chunks in springwater pdm 95g",
+        "quantity": 1,
+        "invoice_price": 1.45,
+        "current_price": 2,
+        "product_name": "John West Tuna Chunks In Springwater 95g",
+        "stockcode": "340411",
+        "status": "found",
+        "was_price": 2.9,
+        "is_special": true
+      },
+      {
+        "item": "Eclipse peppermint sugar free mints tin 40g",
+        "quantity": 2,
+        "invoice_price": 3.5,
+        "current_price": 3.5,
+        "product_name": "Eclipse Peppermint Sugar Free Mints Tin 40g",
+        "stockcode": "815854",
+        "status": "found",
+        "was_price": 4,
+        "is_special": true
+      },
+      {
+        "item": "Eclipse spearmint sugar free mints tin 40g",
+        "quantity": 2,
+        "invoice_price": 3.5,
+        "current_price": 3.5,
+        "product_name": "Eclipse Spearmint Sugar Free Mints Tin 40g",
+        "stockcode": "815853",
+        "status": "found",
+        "was_price": 4,
+        "is_special": true
+      },
+      {
+        "item": "Eclipse strawberry sugar free mints tin 40g",
+        "quantity": 1,
+        "invoice_price": 3.5,
+        "current_price": 3.5,
+        "product_name": "Eclipse Strawberry Sugar Free Mints Tin 40g",
+        "stockcode": "815855",
+        "status": "found",
+        "was_price": 4,
+        "is_special": true
+      },
+      {
+        "item": "Chobani greek yoghurt natural light plain 907g",
+        "quantity": 1,
+        "invoice_price": 7.9,
+        "current_price": 7.9,
+        "product_name": "Chobani Greek Yoghurt Natural Light Plain 907g",
+        "stockcode": "717518",
+        "status": "found",
+        "was_price": 7.9,
+        "is_special": false
+      },
+      {
+        "item": "Harvey fresh lactose free hilo milk pdm 2l",
+        "quantity": 2,
+        "invoice_price": 6.2,
+        "current_price": 6.2,
+        "product_name": "Harvey Fresh Lactose Free HiLo Milk 2L",
+        "stockcode": "240744",
+        "status": "found",
+        "was_price": 6.2,
+        "is_special": false
+      },
+      {
+        "item": "Pauls plus protein dairy snack vanilla 160g",
+        "quantity": 2,
+        "invoice_price": 2.45,
+        "current_price": 3.1,
+        "product_name": "Pauls Plus Protein Dairy Snack Vanilla 160g",
+        "stockcode": "6004840",
+        "status": "found",
+        "was_price": 3.1,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths light thickened cream 300ml",
+        "quantity": 1,
+        "invoice_price": 3.4,
+        "current_price": 3.4,
+        "product_name": "Woolworths Light Thickened Cream 300mL",
+        "stockcode": "838737",
+        "status": "found",
+        "was_price": 3.4,
+        "is_special": false
+      },
+      {
+        "item": "Nestle carnation light & creamy evaporated milk 340ml",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": null,
+        "product_name": "Nestle Carnation Light & Creamy Evaporated Milk 340mL",
+        "stockcode": "151917",
+        "status": "found",
+        "was_price": 3,
+        "is_special": false
+      },
+      {
+        "item": "Coca-cola zero sugar soft drink multipack cans 375ml x 10 pack",
+        "quantity": 1,
+        "invoice_price": 10.5,
+        "current_price": 10.5,
+        "product_name": "Coca-Cola Zero Sugar Soft Drink Multipack Cans 375mL x 10 pack",
+        "stockcode": "669379",
+        "status": "found",
+        "was_price": 21,
+        "is_special": true
+      },
+      {
+        "item": "Fropro protein pot cheeseburger pasta pdm 350g",
+        "quantity": 2,
+        "invoice_price": 11.95,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot korean beef & noodles 350g",
+        "quantity": 2,
+        "invoice_price": 11.95,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths potato minis 1kg",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 5,
+        "product_name": "Woolworths Potato Minis 1kg",
+        "stockcode": "695650",
+        "status": "found",
+        "was_price": 5,
+        "is_special": false
+      },
+      {
+        "item": "Red capsicum pdm each",
+        "quantity": 1,
+        "invoice_price": 3.23,
+        "current_price": 3.48,
+        "product_name": "Red Capsicum each",
+        "stockcode": "135306",
+        "status": "found",
+        "was_price": 3.48,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths baby leaf spinach 120g",
+        "quantity": 1,
+        "invoice_price": 2.7,
+        "current_price": 2.7,
+        "product_name": "Woolworths Baby Leaf Spinach 120g",
+        "stockcode": "524322",
+        "status": "found",
+        "was_price": 2.7,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths chili lime salad kit pdm 350g",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 5.5,
+        "product_name": "Woolworths Chili Lime Salad Kit 350g",
+        "stockcode": "6036189",
+        "status": "found",
+        "was_price": 5.5,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths honey mustard salad kit pdm 285g",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 5.5,
+        "product_name": "Woolworths Honey Mustard Salad Kit 285g",
+        "stockcode": "210686",
+        "status": "found",
+        "was_price": 5.5,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths iceberg shredded lettuce pdm 200g",
+        "quantity": 1,
+        "invoice_price": 2.0,
+        "current_price": 2,
+        "product_name": "Woolworths Iceberg Shredded Lettuce 200g",
+        "stockcode": "638009",
+        "status": "found",
+        "was_price": 2,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths mushroom sliced pdm 500g",
+        "quantity": 1,
+        "invoice_price": 7.0,
+        "current_price": 7,
+        "product_name": "Woolworths Mushroom Sliced 500g",
+        "stockcode": "89466",
+        "status": "found",
+        "was_price": 7,
+        "is_special": false
+      },
+      {
+        "item": "Select smooth peanut butter 500g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": 3.4,
+        "product_name": "Woolworths Smooth Peanut Butter 500g",
+        "stockcode": "233922",
+        "status": "found",
+        "was_price": 3.4,
+        "is_special": false
+      },
+      {
+        "item": "Vetta smart protein spirals pasta pdm 375g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": 3,
+        "product_name": "Vetta SMART Protein Spirals Pasta 375g",
+        "stockcode": "117547",
+        "status": "found",
+        "was_price": 3,
+        "is_special": false
+      },
+      {
+        "item": "Mt barker free range roasted carved chicken breast 220g",
+        "quantity": 2,
+        "invoice_price": 7.0,
+        "current_price": 8.9,
+        "product_name": "Mt Barker Free Range Roasted Carved Chicken Breast 220g",
+        "stockcode": "906432",
+        "status": "found",
+        "was_price": 8.9,
+        "is_special": false
+      },
+      {
+        "item": "Mt barker lemon & herb greek style sliced chicken 220g",
+        "quantity": 2,
+        "invoice_price": 7.0,
+        "current_price": 8.9,
+        "product_name": "Mt Barker Lemon & Herb Greek Style Sliced Chicken 220g",
+        "stockcode": "6030285",
+        "status": "found",
+        "was_price": 8.9,
+        "is_special": false
+      },
+      {
+        "item": "Strength meals co beef tortellini bolognese 350g",
+        "quantity": 2,
+        "invoice_price": 8.95,
+        "current_price": 9.95,
+        "product_name": "Strength Meals Co Beef Tortellini Bolognese 350g",
+        "stockcode": "353746",
+        "status": "found",
+        "was_price": 9.95,
+        "is_special": false
+      },
+      {
+        "item": "Strength meals co classic chicken dinner with gravy 350g",
+        "quantity": 2,
+        "invoice_price": 8.95,
+        "current_price": 9.95,
+        "product_name": "Strength Meals Co Classic Chicken Dinner With Gravy 350g",
+        "stockcode": "349220",
+        "status": "found",
+        "was_price": 9.95,
+        "is_special": false
+      },
+      {
+        "item": "Dine adult wet cat food saucy morsels with salmon trays 85g x 7 pack",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 8,
+        "product_name": "Dine Adult Wet Cat Food Saucy Morsels with Salmon Trays 85g x 7 pack",
+        "stockcode": "349075",
+        "status": "found",
+        "was_price": 10,
+        "is_special": true
+      },
+      {
+        "item": "Dine adult wet cat food saucy morsels with tuna & cheese 85g x 7 pack",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 8,
+        "product_name": "Dine Adult Wet Cat Food Saucy Morsels with Tuna & Cheese 85g x 7 pack",
+        "stockcode": "477637",
+        "status": "found",
+        "was_price": 10,
+        "is_special": true
+      },
+      {
+        "item": "Masterfoods mild american mustard pdm 250g",
+        "quantity": 1,
+        "invoice_price": 3.5,
+        "current_price": 4.2,
+        "product_name": "MasterFoods Mild American Mustard 250g",
+        "stockcode": "36557",
+        "status": "found",
+        "was_price": 4.2,
+        "is_special": false
+      },
+      {
+        "item": "Nando's perinaise mild peri-peri mayonnaise sauce 465g",
+        "quantity": 1,
+        "invoice_price": 7.5,
+        "current_price": 7.5,
+        "product_name": "Nando's Perinaise Mild Peri-Peri Mayonnaise Sauce 465g",
+        "stockcode": "880522",
+        "status": "found",
+        "was_price": 7.5,
+        "is_special": false
+      },
+      {
+        "item": "Dairyworks cheddar slices value 32 pack",
+        "quantity": 1,
+        "invoice_price": 8.0,
+        "current_price": 8,
+        "product_name": "Dairyworks Cheddar Slices Value 32 pack",
+        "stockcode": "178118",
+        "status": "found",
+        "was_price": 8,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths tasty cheese shredded 250g",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 5,
+        "product_name": "Woolworths Tasty Cheese Shredded 250g",
+        "stockcode": "729025",
+        "status": "found",
+        "was_price": 5,
+        "is_special": false
+      },
+      {
+        "item": "Snickers frozen dessert bars pdm 5 pack",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": 9.5,
+        "product_name": "Snickers Gold Frozen Dessert Bar 5 pack",
+        "stockcode": "6041784",
+        "status": "found",
+        "was_price": 9.5,
+        "is_special": false
+      },
+      {
+        "item": "onion shallot french pdm each",
+        "quantity": 1,
+        "invoice_price": 0.6,
+        "current_price": 0.6,
+        "product_name": "Onion Shallot French each",
+        "stockcode": "189459",
+        "status": "found",
+        "was_price": 0.6,
+        "is_special": false
+      },
+      {
+        "item": "Finish ultimate dishwashing tablets lemon 70 pack",
+        "quantity": 1,
+        "invoice_price": 32.0,
+        "current_price": 64,
+        "product_name": "Finish Ultimate Dishwashing Tablets Lemon 70 pack",
+        "stockcode": "6019017",
+        "status": "found",
+        "was_price": 64,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths arborio risotto rice pdm 1kg",
+        "quantity": 1,
+        "invoice_price": 4.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths pasta macaroni 500g",
+        "quantity": 1,
+        "invoice_price": 1.0,
+        "current_price": 1,
+        "product_name": "Woolworths Pasta Macaroni 500g",
+        "stockcode": "346837",
+        "status": "found",
+        "was_price": 1,
+        "is_special": false
+      },
+      {
+        "item": "Moccona freeze dried instant coffee classic dark roast 200g",
+        "quantity": 1,
+        "invoice_price": 23.6,
+        "current_price": 23.6,
+        "product_name": "Moccona Freeze Dried Instant Coffee Classic Dark Roast 200g",
+        "stockcode": "248520",
+        "status": "found",
+        "was_price": 23.6,
+        "is_special": false
+      },
+      {
+        "item": "Bow wow pig ears dog treats 5 pack",
+        "quantity": 1,
+        "invoice_price": 11.0,
+        "current_price": 16.8,
+        "product_name": "Bow Wow Pig Ears Dog Treats 5 pack",
+        "stockcode": "323774",
+        "status": "found",
+        "was_price": 16.8,
+        "is_special": false
+      },
+      {
+        "item": "Ingham's tempura style nuggets pdm 1kg",
+        "quantity": 1,
+        "invoice_price": 11.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot bang bang chicken & rice 350g",
+        "quantity": 2,
+        "invoice_price": 8.35,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot bbq chicken mac & cheese 350g",
+        "quantity": 2,
+        "invoice_price": 8.35,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Jalna pot set fat free yoghurt 1kg",
+        "quantity": 1,
+        "invoice_price": 7.0,
+        "current_price": 8.8,
+        "product_name": "Jalna Pot Set 99% Fat Free Yoghurt 1kg",
+        "stockcode": "43053",
+        "status": "found",
+        "was_price": 8.8,
+        "is_special": false
+      },
+      {
+        "item": "Mondeli australian made leg ham pdm 100g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": 7.5,
+        "product_name": "MonDeli Australian Made Leg Ham 100g",
+        "stockcode": "6008635",
+        "status": "found",
+        "was_price": 7.5,
+        "is_special": false
+      },
+      {
+        "item": "Mondeli premium australian prosciutto pdm 80g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": 7.5,
+        "product_name": "MonDeli Premium Australian Prosciutto 80g",
+        "stockcode": "6007124",
+        "status": "found",
+        "was_price": 7.5,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths asian salad bowl pdm 230g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": 5.5,
+        "product_name": "Woolworths Asian Salad Bowl 230g",
+        "stockcode": "164644",
+        "status": "found",
+        "was_price": 6,
+        "is_special": true
+      },
+      {
+        "item": "Carnarvon bananas pdm 750g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Mission low gi wraps wholemeal 6 pack",
+        "quantity": 1,
+        "invoice_price": 5.5,
+        "current_price": 5.6,
+        "product_name": "Mission Low Gi Wraps Wholemeal 6 pack",
+        "stockcode": "575874",
+        "status": "found",
+        "was_price": 5.6,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths lower carb potatoes pdm 1.5kg",
+        "quantity": 1,
+        "invoice_price": 5.5,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths carrots peas & corn 1kg",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 5,
+        "product_name": "Woolworths Carrots Peas & Corn 1kg",
+        "stockcode": "768569",
+        "status": "found",
+        "was_price": 5,
+        "is_special": false
+      },
+      {
+        "item": "Red rock deli potato chips party bag honey soy & chicken 290g",
+        "quantity": 1,
+        "invoice_price": 4.25,
+        "current_price": 8.5,
+        "product_name": "Red Rock Deli Potato Chips Honey Soy & Chicken 290g",
+        "stockcode": "54682",
+        "status": "found",
+        "was_price": 8.5,
+        "is_special": false
+      },
+      {
+        "item": "Campbell's real stock chicken pdm 1l",
+        "quantity": 1,
+        "invoice_price": 4.0,
+        "current_price": 4.5,
+        "product_name": "Campbell's Real Stock Chicken 1L",
+        "stockcode": "77750",
+        "status": "found",
+        "was_price": 4.5,
+        "is_special": false
+      },
+      {
+        "item": "Essentials french fries pdm 1kg",
+        "quantity": 1,
+        "invoice_price": 3.8,
+        "current_price": null,
+        "status": "not found",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Pauls plus protein chocolate yoghurt pdm 160g",
+        "quantity": 1,
+        "invoice_price": 3.1,
+        "current_price": 3.1,
+        "product_name": "Pauls Plus Protein Chocolate Yoghurt 160g",
+        "stockcode": "502078",
+        "status": "found",
+        "was_price": 3.1,
+        "is_special": false
+      },
+      {
+        "item": "Yopro perform high protein yoghurt mango passionfruit 175g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": 3.9,
+        "product_name": "YoPRO Perform High Protein Yoghurt Mango Passionfruit 175g",
+        "stockcode": "167433",
+        "status": "found",
+        "was_price": 3.9,
+        "is_special": false
+      },
+      {
+        "item": "Yopro perform high protein yoghurt mixed berry 175g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": 3.9,
+        "product_name": "YoPRO Perform High Protein Yoghurt Mixed Berry 175g",
+        "stockcode": "167289",
+        "status": "found",
+        "was_price": 3.9,
+        "is_special": false
+      },
+      {
+        "item": "Yopro perform high protein yoghurt strawberry 175g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": 3.9,
+        "product_name": "YoPRO Perform High Protein Yoghurt Strawberry 175g",
+        "stockcode": "205064",
+        "status": "found",
+        "was_price": 3.9,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths gourmet leaf mix pdm 120g",
+        "quantity": 1,
+        "invoice_price": 2.7,
+        "current_price": 2.7,
+        "product_name": "Woolworths Gourmet Leaf Mix 120g",
+        "stockcode": "6036212",
+        "status": "found",
+        "was_price": 2.7,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths spreadable light cream cheese pdm 250g",
+        "quantity": 1,
+        "invoice_price": 2.6,
+        "current_price": 2.6,
+        "product_name": "Woolworths Spreadable Light Cream Cheese 250g",
+        "stockcode": "155151",
+        "status": "found",
+        "was_price": 2.6,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths broccolini bunch pdm each",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": 3.5,
+        "product_name": "Woolworths Broccolini Bunch each",
+        "stockcode": "187314",
+        "status": "found",
+        "was_price": 3.5,
+        "is_special": false
+      },
+      {
+        "item": "Doritos corn chips cheese supreme share pack 170g",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": 3.5,
+        "product_name": "Doritos Corn Chips Cheese Supreme Share Pack 170g",
+        "stockcode": "826731",
+        "status": "found",
+        "was_price": 5,
+        "is_special": true
+      },
+      {
+        "item": "Thins chips salt & vinegar 175g",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": 5,
+        "product_name": "Thins Chips Salt & Vinegar 175g",
+        "stockcode": "319951",
+        "status": "found",
+        "was_price": 5,
+        "is_special": false
+      },
+      {
+        "item": "Pandaroo coconut milk 400ml",
+        "quantity": 1,
+        "invoice_price": 2.25,
+        "current_price": 2.25,
+        "product_name": "Pandaroo Coconut Milk 400mL",
+        "stockcode": "189725",
+        "status": "found",
+        "was_price": 2.25,
+        "is_special": false
+      },
+      {
+        "item": "Frisp edamame beans pdm 200g",
+        "quantity": 1,
+        "invoice_price": 2.0,
+        "current_price": 2,
+        "product_name": "Frisp Edamame Beans 200g",
+        "stockcode": "6026555",
+        "status": "found",
+        "was_price": 2,
+        "is_special": false
+      },
+      {
+        "item": "Essentials tomato paste pdm 500g",
+        "quantity": 1,
+        "invoice_price": 1.4,
+        "current_price": 1.4,
+        "product_name": "Essentials Tomato Paste 500g",
+        "stockcode": "34004",
+        "status": "found",
+        "was_price": 1.4,
+        "is_special": false
+      },
+      {
+        "item": "Kettle sea salt & vinegar chips chips 165g",
+        "quantity": 1,
+        "invoice_price": 3.9,
+        "current_price": 6,
+        "product_name": "Kettle Sea Salt & Vinegar Potato Chips 165g",
+        "stockcode": "236807",
+        "status": "found",
+        "was_price": 6,
+        "is_special": false
+      },
+      {
+        "item": "Vege chips barbeque pdm 100g",
+        "quantity": 1,
+        "invoice_price": 1.5,
+        "current_price": 4.9,
+        "product_name": "Vege Chips Barbeque 100g",
+        "stockcode": "96154",
+        "status": "found",
+        "was_price": 4.9,
+        "is_special": false
+      }
+    ]
+  },
+  {
+    "date": "2026-04-30T20:15:52.472061",
+    "items": [
+      {
+        "item": "Golden crumpets round 6 pack",
+        "quantity": 1,
+        "invoice_price": 2.4,
+        "current_price": 2.4,
+        "product_name": "Golden Crumpets Round 6 pack",
+        "stockcode": "49622",
+        "status": "found",
+        "was_price": 4.8,
+        "is_special": true
+      },
+      {
+        "item": "Mission carb balance original wraps pdm 6 pack",
+        "quantity": 2,
+        "invoice_price": 6.5,
+        "current_price": 5,
+        "product_name": "Mission Carb Balance Original Wraps 6 pack",
+        "stockcode": "919345",
+        "status": "found",
+        "was_price": 6.5,
+        "is_special": true
+      },
+      {
+        "item": "Deep cove sardines in springwater pdm 125g",
+        "quantity": 2,
+        "invoice_price": 1.0,
+        "current_price": 1,
+        "product_name": "Deep Cove Sardines In Springwater 125g",
+        "stockcode": "83235",
+        "status": "found",
+        "was_price": 1,
+        "is_special": false
+      },
+      {
+        "item": "John west tuna chunks in springwater pdm 95g",
+        "quantity": 1,
+        "invoice_price": 1.45,
+        "current_price": 2,
+        "product_name": "John West Tuna Chunks In Springwater 95g",
+        "stockcode": "340411",
+        "status": "found",
+        "was_price": 2.9,
+        "is_special": true
+      },
+      {
+        "item": "Eclipse peppermint sugar free mints tin 40g",
+        "quantity": 2,
+        "invoice_price": 3.5,
+        "current_price": 3.5,
+        "product_name": "Eclipse Peppermint Sugar Free Mints Tin 40g",
+        "stockcode": "815854",
+        "status": "found",
+        "was_price": 4,
+        "is_special": true
+      },
+      {
+        "item": "Eclipse spearmint sugar free mints tin 40g",
+        "quantity": 2,
+        "invoice_price": 3.5,
+        "current_price": 3.5,
+        "product_name": "Eclipse Spearmint Sugar Free Mints Tin 40g",
+        "stockcode": "815853",
+        "status": "found",
+        "was_price": 4,
+        "is_special": true
+      },
+      {
+        "item": "Eclipse strawberry sugar free mints tin 40g",
+        "quantity": 1,
+        "invoice_price": 3.5,
+        "current_price": 3.5,
+        "product_name": "Eclipse Strawberry Sugar Free Mints Tin 40g",
+        "stockcode": "815855",
+        "status": "found",
+        "was_price": 4,
+        "is_special": true
+      },
+      {
+        "item": "Chobani greek yoghurt natural light plain 907g",
+        "quantity": 1,
+        "invoice_price": 7.9,
+        "current_price": 7.9,
+        "product_name": "Chobani Greek Yoghurt Natural Light Plain 907g",
+        "stockcode": "717518",
+        "status": "found",
+        "was_price": 7.9,
+        "is_special": false
+      },
+      {
+        "item": "Harvey fresh lactose free hilo milk pdm 2l",
+        "quantity": 2,
+        "invoice_price": 6.2,
+        "current_price": 6.2,
+        "product_name": "Harvey Fresh Lactose Free HiLo Milk 2L",
+        "stockcode": "240744",
+        "status": "found",
+        "was_price": 6.2,
+        "is_special": false
+      },
+      {
+        "item": "Pauls plus protein dairy snack vanilla 160g",
+        "quantity": 2,
+        "invoice_price": 2.45,
+        "current_price": 3.1,
+        "product_name": "Pauls Plus Protein Dairy Snack Vanilla 160g",
+        "stockcode": "6004840",
+        "status": "found",
+        "was_price": 3.1,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths light thickened cream 300ml",
+        "quantity": 1,
+        "invoice_price": 3.4,
+        "current_price": 3.4,
+        "product_name": "Woolworths Light Thickened Cream 300mL",
+        "stockcode": "838737",
+        "status": "found",
+        "was_price": 3.4,
+        "is_special": false
+      },
+      {
+        "item": "Nestle carnation light & creamy evaporated milk 340ml",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": 3,
+        "product_name": "Nestle Carnation Light & Creamy Evaporated Milk 340mL",
+        "stockcode": "151917",
+        "status": "found",
+        "was_price": 3,
+        "is_special": false
+      },
+      {
+        "item": "Coca-cola zero sugar soft drink multipack cans 375ml x 10 pack",
+        "quantity": 1,
+        "invoice_price": 10.5,
+        "current_price": 10.5,
+        "product_name": "Coca-Cola Zero Sugar Soft Drink Multipack Cans 375mL x 10 pack",
+        "stockcode": "669379",
+        "status": "found",
+        "was_price": 21,
+        "is_special": true
+      },
+      {
+        "item": "Fropro protein pot cheeseburger pasta pdm 350g",
+        "quantity": 2,
+        "invoice_price": 11.95,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot korean beef & noodles 350g",
+        "quantity": 2,
+        "invoice_price": 11.95,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths potato minis 1kg",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 5,
+        "product_name": "Woolworths Potato Minis 1kg",
+        "stockcode": "695650",
+        "status": "found",
+        "was_price": 5,
+        "is_special": false
+      },
+      {
+        "item": "Red capsicum pdm each",
+        "quantity": 1,
+        "invoice_price": 3.23,
+        "current_price": 3.48,
+        "product_name": "Red Capsicum each",
+        "stockcode": "135306",
+        "status": "found",
+        "was_price": 3.48,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths baby leaf spinach 120g",
+        "quantity": 1,
+        "invoice_price": 2.7,
+        "current_price": 2.7,
+        "product_name": "Woolworths Baby Leaf Spinach 120g",
+        "stockcode": "524322",
+        "status": "found",
+        "was_price": 2.7,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths chili lime salad kit pdm 350g",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 5.5,
+        "product_name": "Woolworths Chili Lime Salad Kit 350g",
+        "stockcode": "6036189",
+        "status": "found",
+        "was_price": 5.5,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths honey mustard salad kit pdm 285g",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 5.5,
+        "product_name": "Woolworths Honey Mustard Salad Kit 285g",
+        "stockcode": "210686",
+        "status": "found",
+        "was_price": 5.5,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths iceberg shredded lettuce pdm 200g",
+        "quantity": 1,
+        "invoice_price": 2.0,
+        "current_price": 2,
+        "product_name": "Woolworths Iceberg Shredded Lettuce 200g",
+        "stockcode": "638009",
+        "status": "found",
+        "was_price": 2,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths mushroom sliced pdm 500g",
+        "quantity": 1,
+        "invoice_price": 7.0,
+        "current_price": 7,
+        "product_name": "Woolworths Mushroom Sliced 500g",
+        "stockcode": "89466",
+        "status": "found",
+        "was_price": 7,
+        "is_special": false
+      },
+      {
+        "item": "Select smooth peanut butter 500g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": 3.4,
+        "product_name": "Woolworths Smooth Peanut Butter 500g",
+        "stockcode": "233922",
+        "status": "found",
+        "was_price": 3.4,
+        "is_special": false
+      },
+      {
+        "item": "Vetta smart protein spirals pasta pdm 375g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": 3,
+        "product_name": "Vetta SMART Protein Spirals Pasta 375g",
+        "stockcode": "117547",
+        "status": "found",
+        "was_price": 3,
+        "is_special": false
+      },
+      {
+        "item": "Mt barker free range roasted carved chicken breast 220g",
+        "quantity": 2,
+        "invoice_price": 7.0,
+        "current_price": 8.9,
+        "product_name": "Mt Barker Free Range Roasted Carved Chicken Breast 220g",
+        "stockcode": "906432",
+        "status": "found",
+        "was_price": 8.9,
+        "is_special": false
+      },
+      {
+        "item": "Mt barker lemon & herb greek style sliced chicken 220g",
+        "quantity": 2,
+        "invoice_price": 7.0,
+        "current_price": 8.9,
+        "product_name": "Mt Barker Lemon & Herb Greek Style Sliced Chicken 220g",
+        "stockcode": "6030285",
+        "status": "found",
+        "was_price": 8.9,
+        "is_special": false
+      },
+      {
+        "item": "Strength meals co beef tortellini bolognese 350g",
+        "quantity": 2,
+        "invoice_price": 8.95,
+        "current_price": 9.95,
+        "product_name": "Strength Meals Co Beef Tortellini Bolognese 350g",
+        "stockcode": "353746",
+        "status": "found",
+        "was_price": 9.95,
+        "is_special": false
+      },
+      {
+        "item": "Strength meals co classic chicken dinner with gravy 350g",
+        "quantity": 2,
+        "invoice_price": 8.95,
+        "current_price": 9.95,
+        "product_name": "Strength Meals Co Classic Chicken Dinner With Gravy 350g",
+        "stockcode": "349220",
+        "status": "found",
+        "was_price": 9.95,
+        "is_special": false
+      },
+      {
+        "item": "Dine adult wet cat food saucy morsels with salmon trays 85g x 7 pack",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 8,
+        "product_name": "Dine Adult Wet Cat Food Saucy Morsels with Salmon Trays 85g x 7 pack",
+        "stockcode": "349075",
+        "status": "found",
+        "was_price": 10,
+        "is_special": true
+      },
+      {
+        "item": "Dine adult wet cat food saucy morsels with tuna & cheese 85g x 7 pack",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 8,
+        "product_name": "Dine Adult Wet Cat Food Saucy Morsels with Tuna & Cheese 85g x 7 pack",
+        "stockcode": "477637",
+        "status": "found",
+        "was_price": 10,
+        "is_special": true
+      },
+      {
+        "item": "Masterfoods mild american mustard pdm 250g",
+        "quantity": 1,
+        "invoice_price": 3.5,
+        "current_price": 4.2,
+        "product_name": "MasterFoods Mild American Mustard 250g",
+        "stockcode": "36557",
+        "status": "found",
+        "was_price": 4.2,
+        "is_special": false
+      },
+      {
+        "item": "Nando's perinaise mild peri-peri mayonnaise sauce 465g",
+        "quantity": 1,
+        "invoice_price": 7.5,
+        "current_price": 7.5,
+        "product_name": "Nando's Perinaise Mild Peri-Peri Mayonnaise Sauce 465g",
+        "stockcode": "880522",
+        "status": "found",
+        "was_price": 7.5,
+        "is_special": false
+      },
+      {
+        "item": "Dairyworks cheddar slices value 32 pack",
+        "quantity": 1,
+        "invoice_price": 8.0,
+        "current_price": 8,
+        "product_name": "Dairyworks Cheddar Slices Value 32 pack",
+        "stockcode": "178118",
+        "status": "found",
+        "was_price": 8,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths tasty cheese shredded 250g",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 5,
+        "product_name": "Woolworths Tasty Cheese Shredded 250g",
+        "stockcode": "729025",
+        "status": "found",
+        "was_price": 5,
+        "is_special": false
+      },
+      {
+        "item": "Snickers frozen dessert bars pdm 5 pack",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": 9.5,
+        "product_name": "Snickers Gold Frozen Dessert Bar 5 pack",
+        "stockcode": "6041784",
+        "status": "found",
+        "was_price": 9.5,
+        "is_special": false
+      },
+      {
+        "item": "onion shallot french pdm each",
+        "quantity": 1,
+        "invoice_price": 0.6,
+        "current_price": 0.6,
+        "product_name": "Onion Shallot French each",
+        "stockcode": "189459",
+        "status": "found",
+        "was_price": 0.6,
+        "is_special": false
+      },
+      {
+        "item": "Finish ultimate dishwashing tablets lemon 70 pack",
+        "quantity": 1,
+        "invoice_price": 32.0,
+        "current_price": 64,
+        "product_name": "Finish Ultimate Dishwashing Tablets Lemon 70 pack",
+        "stockcode": "6019017",
+        "status": "found",
+        "was_price": 64,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths arborio risotto rice pdm 1kg",
+        "quantity": 1,
+        "invoice_price": 4.0,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths pasta macaroni 500g",
+        "quantity": 1,
+        "invoice_price": 1.0,
+        "current_price": 1,
+        "product_name": "Woolworths Pasta Macaroni 500g",
+        "stockcode": "346837",
+        "status": "found",
+        "was_price": 1,
+        "is_special": false
+      },
+      {
+        "item": "Moccona freeze dried instant coffee classic dark roast 200g",
+        "quantity": 1,
+        "invoice_price": 23.6,
+        "current_price": 23.6,
+        "product_name": "Moccona Freeze Dried Instant Coffee Classic Dark Roast 200g",
+        "stockcode": "248520",
+        "status": "found",
+        "was_price": 23.6,
+        "is_special": false
+      },
+      {
+        "item": "Bow wow pig ears dog treats 5 pack",
+        "quantity": 1,
+        "invoice_price": 11.0,
+        "current_price": 16.8,
+        "product_name": "Bow Wow Pig Ears Dog Treats 5 pack",
+        "stockcode": "323774",
+        "status": "found",
+        "was_price": 16.8,
+        "is_special": false
+      },
+      {
+        "item": "Ingham's tempura style nuggets pdm 1kg",
+        "quantity": 1,
+        "invoice_price": 11.0,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot bang bang chicken & rice 350g",
+        "quantity": 2,
+        "invoice_price": 8.35,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot bbq chicken mac & cheese 350g",
+        "quantity": 2,
+        "invoice_price": 8.35,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Jalna pot set fat free yoghurt 1kg",
+        "quantity": 1,
+        "invoice_price": 7.0,
+        "current_price": 8.8,
+        "product_name": "Jalna Pot Set 99% Fat Free Yoghurt 1kg",
+        "stockcode": "43053",
+        "status": "found",
+        "was_price": 8.8,
+        "is_special": false
+      },
+      {
+        "item": "Mondeli australian made leg ham pdm 100g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": 7.5,
+        "product_name": "MonDeli Australian Made Leg Ham 100g",
+        "stockcode": "6008635",
+        "status": "found",
+        "was_price": 7.5,
+        "is_special": false
+      },
+      {
+        "item": "Mondeli premium australian prosciutto pdm 80g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": 7.5,
+        "product_name": "MonDeli Premium Australian Prosciutto 80g",
+        "stockcode": "6007124",
+        "status": "found",
+        "was_price": 7.5,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths asian salad bowl pdm 230g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": 5.5,
+        "product_name": "Woolworths Asian Salad Bowl 230g",
+        "stockcode": "164644",
+        "status": "found",
+        "was_price": 6,
+        "is_special": true
+      },
+      {
+        "item": "Carnarvon bananas pdm 750g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Mission low gi wraps wholemeal 6 pack",
+        "quantity": 1,
+        "invoice_price": 5.5,
+        "current_price": 5.6,
+        "product_name": "Mission Low Gi Wraps Wholemeal 6 pack",
+        "stockcode": "575874",
+        "status": "found",
+        "was_price": 5.6,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths lower carb potatoes pdm 1.5kg",
+        "quantity": 1,
+        "invoice_price": 5.5,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths carrots peas & corn 1kg",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 5,
+        "product_name": "Woolworths Carrots Peas & Corn 1kg",
+        "stockcode": "768569",
+        "status": "found",
+        "was_price": 5,
+        "is_special": false
+      },
+      {
+        "item": "Red rock deli potato chips party bag honey soy & chicken 290g",
+        "quantity": 1,
+        "invoice_price": 4.25,
+        "current_price": 8.5,
+        "product_name": "Red Rock Deli Potato Chips Honey Soy & Chicken 290g",
+        "stockcode": "54682",
+        "status": "found",
+        "was_price": 8.5,
+        "is_special": false
+      },
+      {
+        "item": "Campbell's real stock chicken pdm 1l",
+        "quantity": 1,
+        "invoice_price": 4.0,
+        "current_price": 4.5,
+        "product_name": "Campbell's Real Stock Chicken 1L",
+        "stockcode": "77750",
+        "status": "found",
+        "was_price": 4.5,
+        "is_special": false
+      },
+      {
+        "item": "Essentials french fries pdm 1kg",
+        "quantity": 1,
+        "invoice_price": 3.8,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Pauls plus protein chocolate yoghurt pdm 160g",
+        "quantity": 1,
+        "invoice_price": 3.1,
+        "current_price": 3.1,
+        "product_name": "Pauls Plus Protein Chocolate Yoghurt 160g",
+        "stockcode": "502078",
+        "status": "found",
+        "was_price": 3.1,
+        "is_special": false
+      },
+      {
+        "item": "Yopro perform high protein yoghurt mango passionfruit 175g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": 3.9,
+        "product_name": "YoPRO Perform High Protein Yoghurt Mango Passionfruit 175g",
+        "stockcode": "167433",
+        "status": "found",
+        "was_price": 3.9,
+        "is_special": false
+      },
+      {
+        "item": "Yopro perform high protein yoghurt mixed berry 175g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": 3.9,
+        "product_name": "YoPRO Perform High Protein Yoghurt Mixed Berry 175g",
+        "stockcode": "167289",
+        "status": "found",
+        "was_price": 3.9,
+        "is_special": false
+      },
+      {
+        "item": "Yopro perform high protein yoghurt strawberry 175g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": 3.9,
+        "product_name": "YoPRO Perform High Protein Yoghurt Strawberry 175g",
+        "stockcode": "205064",
+        "status": "found",
+        "was_price": 3.9,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths gourmet leaf mix pdm 120g",
+        "quantity": 1,
+        "invoice_price": 2.7,
+        "current_price": 2.7,
+        "product_name": "Woolworths Gourmet Leaf Mix 120g",
+        "stockcode": "6036212",
+        "status": "found",
+        "was_price": 2.7,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths spreadable light cream cheese pdm 250g",
+        "quantity": 1,
+        "invoice_price": 2.6,
+        "current_price": 2.6,
+        "product_name": "Woolworths Spreadable Light Cream Cheese 250g",
+        "stockcode": "155151",
+        "status": "found",
+        "was_price": 2.6,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths broccolini bunch pdm each",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": 3.5,
+        "product_name": "Woolworths Broccolini Bunch each",
+        "stockcode": "187314",
+        "status": "found",
+        "was_price": 3.5,
+        "is_special": false
+      },
+      {
+        "item": "Doritos corn chips cheese supreme share pack 170g",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": 3.5,
+        "product_name": "Doritos Corn Chips Cheese Supreme Share Pack 170g",
+        "stockcode": "826731",
+        "status": "found",
+        "was_price": 5,
+        "is_special": true
+      },
+      {
+        "item": "Thins chips salt & vinegar 175g",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": 5,
+        "product_name": "Thins Chips Salt & Vinegar 175g",
+        "stockcode": "319951",
+        "status": "found",
+        "was_price": 5,
+        "is_special": false
+      },
+      {
+        "item": "Pandaroo coconut milk 400ml",
+        "quantity": 1,
+        "invoice_price": 2.25,
+        "current_price": 2.25,
+        "product_name": "Pandaroo Coconut Milk 400mL",
+        "stockcode": "189725",
+        "status": "found",
+        "was_price": 2.25,
+        "is_special": false
+      },
+      {
+        "item": "Frisp edamame beans pdm 200g",
+        "quantity": 1,
+        "invoice_price": 2.0,
+        "current_price": 2,
+        "product_name": "Frisp Edamame Beans 200g",
+        "stockcode": "6026555",
+        "status": "found",
+        "was_price": 2,
+        "is_special": false
+      },
+      {
+        "item": "Essentials tomato paste pdm 500g",
+        "quantity": 1,
+        "invoice_price": 1.4,
+        "current_price": 1.4,
+        "product_name": "Essentials Tomato Paste 500g",
+        "stockcode": "34004",
+        "status": "found",
+        "was_price": 1.4,
+        "is_special": false
+      },
+      {
+        "item": "Kettle sea salt & vinegar chips chips 165g",
+        "quantity": 1,
+        "invoice_price": 3.9,
+        "current_price": 6,
+        "product_name": "Kettle Sea Salt & Vinegar Potato Chips 165g",
+        "stockcode": "236807",
+        "status": "found",
+        "was_price": 6,
+        "is_special": false
+      },
+      {
+        "item": "Vege chips barbeque pdm 100g",
+        "quantity": 1,
+        "invoice_price": 1.5,
+        "current_price": 4.9,
+        "product_name": "Vege Chips Barbeque 100g",
+        "stockcode": "96154",
+        "status": "found",
+        "was_price": 4.9,
+        "is_special": false
+      }
+    ]
+  },
+  {
+    "date": "2026-04-30T20:30:00.299381",
+    "items": [
+      {
+        "item": "Golden crumpets round 6 pack",
+        "quantity": 1,
+        "invoice_price": 2.4,
+        "current_price": 2.4,
+        "product_name": "Golden Crumpets Round 6 pack",
+        "stockcode": "49622",
+        "status": "found",
+        "was_price": 4.8,
+        "is_special": true
+      },
+      {
+        "item": "Mission carb balance original wraps pdm 6 pack",
+        "quantity": 2,
+        "invoice_price": 6.5,
+        "current_price": 5,
+        "product_name": "Mission Carb Balance Original Wraps 6 pack",
+        "stockcode": "919345",
+        "status": "found",
+        "was_price": 6.5,
+        "is_special": true
+      },
+      {
+        "item": "Deep cove sardines in springwater pdm 125g",
+        "quantity": 2,
+        "invoice_price": 1.0,
+        "current_price": 1,
+        "product_name": "Deep Cove Sardines In Springwater 125g",
+        "stockcode": "83235",
+        "status": "found",
+        "was_price": 1,
+        "is_special": false
+      },
+      {
+        "item": "John west tuna chunks in springwater pdm 95g",
+        "quantity": 1,
+        "invoice_price": 1.45,
+        "current_price": 2,
+        "product_name": "John West Tuna Chunks In Springwater 95g",
+        "stockcode": "340411",
+        "status": "found",
+        "was_price": 2.9,
+        "is_special": true
+      },
+      {
+        "item": "Eclipse peppermint sugar free mints tin 40g",
+        "quantity": 2,
+        "invoice_price": 3.5,
+        "current_price": 3.5,
+        "product_name": "Eclipse Peppermint Sugar Free Mints Tin 40g",
+        "stockcode": "815854",
+        "status": "found",
+        "was_price": 4,
+        "is_special": true
+      },
+      {
+        "item": "Eclipse spearmint sugar free mints tin 40g",
+        "quantity": 2,
+        "invoice_price": 3.5,
+        "current_price": 3.5,
+        "product_name": "Eclipse Spearmint Sugar Free Mints Tin 40g",
+        "stockcode": "815853",
+        "status": "found",
+        "was_price": 4,
+        "is_special": true
+      },
+      {
+        "item": "Eclipse strawberry sugar free mints tin 40g",
+        "quantity": 1,
+        "invoice_price": 3.5,
+        "current_price": 3.5,
+        "product_name": "Eclipse Strawberry Sugar Free Mints Tin 40g",
+        "stockcode": "815855",
+        "status": "found",
+        "was_price": 4,
+        "is_special": true
+      },
+      {
+        "item": "Chobani greek yoghurt natural light plain 907g",
+        "quantity": 1,
+        "invoice_price": 7.9,
+        "current_price": 7.9,
+        "product_name": "Chobani Greek Yoghurt Natural Light Plain 907g",
+        "stockcode": "717518",
+        "status": "found",
+        "was_price": 7.9,
+        "is_special": false
+      },
+      {
+        "item": "Harvey fresh lactose free hilo milk pdm 2l",
+        "quantity": 2,
+        "invoice_price": 6.2,
+        "current_price": 6.2,
+        "product_name": "Harvey Fresh Lactose Free HiLo Milk 2L",
+        "stockcode": "240744",
+        "status": "found",
+        "was_price": 6.2,
+        "is_special": false
+      },
+      {
+        "item": "Pauls plus protein dairy snack vanilla 160g",
+        "quantity": 2,
+        "invoice_price": 2.45,
+        "current_price": 3.1,
+        "product_name": "Pauls Plus Protein Dairy Snack Vanilla 160g",
+        "stockcode": "6004840",
+        "status": "found",
+        "was_price": 3.1,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths light thickened cream 300ml",
+        "quantity": 1,
+        "invoice_price": 3.4,
+        "current_price": 3.4,
+        "product_name": "Woolworths Light Thickened Cream 300mL",
+        "stockcode": "838737",
+        "status": "found",
+        "was_price": 3.4,
+        "is_special": false
+      },
+      {
+        "item": "Nestle carnation light & creamy evaporated milk 340ml",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": 3,
+        "product_name": "Nestle Carnation Light & Creamy Evaporated Milk 340mL",
+        "stockcode": "151917",
+        "status": "found",
+        "was_price": 3,
+        "is_special": false
+      },
+      {
+        "item": "Coca-cola zero sugar soft drink multipack cans 375ml x 10 pack",
+        "quantity": 1,
+        "invoice_price": 10.5,
+        "current_price": 10.5,
+        "product_name": "Coca-Cola Zero Sugar Soft Drink Multipack Cans 375mL x 10 pack",
+        "stockcode": "669379",
+        "status": "found",
+        "was_price": 21,
+        "is_special": true
+      },
+      {
+        "item": "Fropro protein pot cheeseburger pasta pdm 350g",
+        "quantity": 2,
+        "invoice_price": 11.95,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot korean beef & noodles 350g",
+        "quantity": 2,
+        "invoice_price": 11.95,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths potato minis 1kg",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 5,
+        "product_name": "Woolworths Potato Minis 1kg",
+        "stockcode": "695650",
+        "status": "found",
+        "was_price": 5,
+        "is_special": false
+      },
+      {
+        "item": "Red capsicum pdm each",
+        "quantity": 1,
+        "invoice_price": 3.23,
+        "current_price": 3.48,
+        "product_name": "Red Capsicum each",
+        "stockcode": "135306",
+        "status": "found",
+        "was_price": 3.48,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths baby leaf spinach 120g",
+        "quantity": 1,
+        "invoice_price": 2.7,
+        "current_price": 2.7,
+        "product_name": "Woolworths Baby Leaf Spinach 120g",
+        "stockcode": "524322",
+        "status": "found",
+        "was_price": 2.7,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths chili lime salad kit pdm 350g",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 5.5,
+        "product_name": "Woolworths Chili Lime Salad Kit 350g",
+        "stockcode": "6036189",
+        "status": "found",
+        "was_price": 5.5,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths honey mustard salad kit pdm 285g",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 5.5,
+        "product_name": "Woolworths Honey Mustard Salad Kit 285g",
+        "stockcode": "210686",
+        "status": "found",
+        "was_price": 5.5,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths iceberg shredded lettuce pdm 200g",
+        "quantity": 1,
+        "invoice_price": 2.0,
+        "current_price": 2,
+        "product_name": "Woolworths Iceberg Shredded Lettuce 200g",
+        "stockcode": "638009",
+        "status": "found",
+        "was_price": 2,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths mushroom sliced pdm 500g",
+        "quantity": 1,
+        "invoice_price": 7.0,
+        "current_price": 7,
+        "product_name": "Woolworths Mushroom Sliced 500g",
+        "stockcode": "89466",
+        "status": "found",
+        "was_price": 7,
+        "is_special": false
+      },
+      {
+        "item": "Select smooth peanut butter 500g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": 3.4,
+        "product_name": "Woolworths Smooth Peanut Butter 500g",
+        "stockcode": "233922",
+        "status": "found",
+        "was_price": 3.4,
+        "is_special": false
+      },
+      {
+        "item": "Vetta smart protein spirals pasta pdm 375g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": 3,
+        "product_name": "Vetta SMART Protein Spirals Pasta 375g",
+        "stockcode": "117547",
+        "status": "found",
+        "was_price": 3,
+        "is_special": false
+      },
+      {
+        "item": "Mt barker free range roasted carved chicken breast 220g",
+        "quantity": 2,
+        "invoice_price": 7.0,
+        "current_price": 8.9,
+        "product_name": "Mt Barker Free Range Roasted Carved Chicken Breast 220g",
+        "stockcode": "906432",
+        "status": "found",
+        "was_price": 8.9,
+        "is_special": false
+      },
+      {
+        "item": "Mt barker lemon & herb greek style sliced chicken 220g",
+        "quantity": 2,
+        "invoice_price": 7.0,
+        "current_price": 8.9,
+        "product_name": "Mt Barker Lemon & Herb Greek Style Sliced Chicken 220g",
+        "stockcode": "6030285",
+        "status": "found",
+        "was_price": 8.9,
+        "is_special": false
+      },
+      {
+        "item": "Strength meals co beef tortellini bolognese 350g",
+        "quantity": 2,
+        "invoice_price": 8.95,
+        "current_price": 9.95,
+        "product_name": "Strength Meals Co Beef Tortellini Bolognese 350g",
+        "stockcode": "353746",
+        "status": "found",
+        "was_price": 9.95,
+        "is_special": false
+      },
+      {
+        "item": "Strength meals co classic chicken dinner with gravy 350g",
+        "quantity": 2,
+        "invoice_price": 8.95,
+        "current_price": 9.95,
+        "product_name": "Strength Meals Co Classic Chicken Dinner With Gravy 350g",
+        "stockcode": "349220",
+        "status": "found",
+        "was_price": 9.95,
+        "is_special": false
+      },
+      {
+        "item": "Dine adult wet cat food saucy morsels with salmon trays 85g x 7 pack",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 8,
+        "product_name": "Dine Adult Wet Cat Food Saucy Morsels with Salmon Trays 85g x 7 pack",
+        "stockcode": "349075",
+        "status": "found",
+        "was_price": 10,
+        "is_special": true
+      },
+      {
+        "item": "Dine adult wet cat food saucy morsels with tuna & cheese 85g x 7 pack",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 8,
+        "product_name": "Dine Adult Wet Cat Food Saucy Morsels with Tuna & Cheese 85g x 7 pack",
+        "stockcode": "477637",
+        "status": "found",
+        "was_price": 10,
+        "is_special": true
+      },
+      {
+        "item": "Masterfoods mild american mustard pdm 250g",
+        "quantity": 1,
+        "invoice_price": 3.5,
+        "current_price": 4.2,
+        "product_name": "MasterFoods Mild American Mustard 250g",
+        "stockcode": "36557",
+        "status": "found",
+        "was_price": 4.2,
+        "is_special": false
+      },
+      {
+        "item": "Nando's perinaise mild peri-peri mayonnaise sauce 465g",
+        "quantity": 1,
+        "invoice_price": 7.5,
+        "current_price": 7.5,
+        "product_name": "Nando's Perinaise Mild Peri-Peri Mayonnaise Sauce 465g",
+        "stockcode": "880522",
+        "status": "found",
+        "was_price": 7.5,
+        "is_special": false
+      },
+      {
+        "item": "Dairyworks cheddar slices value 32 pack",
+        "quantity": 1,
+        "invoice_price": 8.0,
+        "current_price": 8,
+        "product_name": "Dairyworks Cheddar Slices Value 32 pack",
+        "stockcode": "178118",
+        "status": "found",
+        "was_price": 8,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths tasty cheese shredded 250g",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 5,
+        "product_name": "Woolworths Tasty Cheese Shredded 250g",
+        "stockcode": "729025",
+        "status": "found",
+        "was_price": 5,
+        "is_special": false
+      },
+      {
+        "item": "Snickers frozen dessert bars pdm 5 pack",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": 9.5,
+        "product_name": "Snickers Gold Frozen Dessert Bar 5 pack",
+        "stockcode": "6041784",
+        "status": "found",
+        "was_price": 9.5,
+        "is_special": false
+      },
+      {
+        "item": "onion shallot french pdm each",
+        "quantity": 1,
+        "invoice_price": 0.6,
+        "current_price": 0.6,
+        "product_name": "Onion Shallot French each",
+        "stockcode": "189459",
+        "status": "found",
+        "was_price": 0.6,
+        "is_special": false
+      },
+      {
+        "item": "Finish ultimate dishwashing tablets lemon 70 pack",
+        "quantity": 1,
+        "invoice_price": 32.0,
+        "current_price": 64,
+        "product_name": "Finish Ultimate Dishwashing Tablets Lemon 70 pack",
+        "stockcode": "6019017",
+        "status": "found",
+        "was_price": 64,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths arborio risotto rice pdm 1kg",
+        "quantity": 1,
+        "invoice_price": 4.0,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths pasta macaroni 500g",
+        "quantity": 1,
+        "invoice_price": 1.0,
+        "current_price": 1,
+        "product_name": "Woolworths Pasta Macaroni 500g",
+        "stockcode": "346837",
+        "status": "found",
+        "was_price": 1,
+        "is_special": false
+      },
+      {
+        "item": "Moccona freeze dried instant coffee classic dark roast 200g",
+        "quantity": 1,
+        "invoice_price": 23.6,
+        "current_price": 23.6,
+        "product_name": "Moccona Freeze Dried Instant Coffee Classic Dark Roast 200g",
+        "stockcode": "248520",
+        "status": "found",
+        "was_price": 23.6,
+        "is_special": false
+      },
+      {
+        "item": "Bow wow pig ears dog treats 5 pack",
+        "quantity": 1,
+        "invoice_price": 11.0,
+        "current_price": 16.8,
+        "product_name": "Bow Wow Pig Ears Dog Treats 5 pack",
+        "stockcode": "323774",
+        "status": "found",
+        "was_price": 16.8,
+        "is_special": false
+      },
+      {
+        "item": "Ingham's tempura style nuggets pdm 1kg",
+        "quantity": 1,
+        "invoice_price": 11.0,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot bang bang chicken & rice 350g",
+        "quantity": 2,
+        "invoice_price": 8.35,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Fropro protein pot bbq chicken mac & cheese 350g",
+        "quantity": 2,
+        "invoice_price": 8.35,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Jalna pot set fat free yoghurt 1kg",
+        "quantity": 1,
+        "invoice_price": 7.0,
+        "current_price": 8.8,
+        "product_name": "Jalna Pot Set 99% Fat Free Yoghurt 1kg",
+        "stockcode": "43053",
+        "status": "found",
+        "was_price": 8.8,
+        "is_special": false
+      },
+      {
+        "item": "Mondeli australian made leg ham pdm 100g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": 7.5,
+        "product_name": "MonDeli Australian Made Leg Ham 100g",
+        "stockcode": "6008635",
+        "status": "found",
+        "was_price": 7.5,
+        "is_special": false
+      },
+      {
+        "item": "Mondeli premium australian prosciutto pdm 80g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": 7.5,
+        "product_name": "MonDeli Premium Australian Prosciutto 80g",
+        "stockcode": "6007124",
+        "status": "found",
+        "was_price": 7.5,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths asian salad bowl pdm 230g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": 5.5,
+        "product_name": "Woolworths Asian Salad Bowl 230g",
+        "stockcode": "164644",
+        "status": "found",
+        "was_price": 6,
+        "is_special": true
+      },
+      {
+        "item": "Carnarvon bananas pdm 750g",
+        "quantity": 1,
+        "invoice_price": 6.0,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Mission low gi wraps wholemeal 6 pack",
+        "quantity": 1,
+        "invoice_price": 5.5,
+        "current_price": 5.6,
+        "product_name": "Mission Low Gi Wraps Wholemeal 6 pack",
+        "stockcode": "575874",
+        "status": "found",
+        "was_price": 5.6,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths lower carb potatoes pdm 1.5kg",
+        "quantity": 1,
+        "invoice_price": 5.5,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths carrots peas & corn 1kg",
+        "quantity": 1,
+        "invoice_price": 5.0,
+        "current_price": 5,
+        "product_name": "Woolworths Carrots Peas & Corn 1kg",
+        "stockcode": "768569",
+        "status": "found",
+        "was_price": 5,
+        "is_special": false
+      },
+      {
+        "item": "Red rock deli potato chips party bag honey soy & chicken 290g",
+        "quantity": 1,
+        "invoice_price": 4.25,
+        "current_price": 8.5,
+        "product_name": "Red Rock Deli Potato Chips Honey Soy & Chicken 290g",
+        "stockcode": "54682",
+        "status": "found",
+        "was_price": 8.5,
+        "is_special": false
+      },
+      {
+        "item": "Campbell's real stock chicken pdm 1l",
+        "quantity": 1,
+        "invoice_price": 4.0,
+        "current_price": 4.5,
+        "product_name": "Campbell's Real Stock Chicken 1L",
+        "stockcode": "77750",
+        "status": "found",
+        "was_price": 4.5,
+        "is_special": false
+      },
+      {
+        "item": "Essentials french fries pdm 1kg",
+        "quantity": 1,
+        "invoice_price": 3.8,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Pauls plus protein chocolate yoghurt pdm 160g",
+        "quantity": 1,
+        "invoice_price": 3.1,
+        "current_price": 3.1,
+        "product_name": "Pauls Plus Protein Chocolate Yoghurt 160g",
+        "stockcode": "502078",
+        "status": "found",
+        "was_price": 3.1,
+        "is_special": false
+      },
+      {
+        "item": "Yopro perform high protein yoghurt mango passionfruit 175g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": 3.9,
+        "product_name": "YoPRO Perform High Protein Yoghurt Mango Passionfruit 175g",
+        "stockcode": "167433",
+        "status": "found",
+        "was_price": 3.9,
+        "is_special": false
+      },
+      {
+        "item": "Yopro perform high protein yoghurt mixed berry 175g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": 3.9,
+        "product_name": "YoPRO Perform High Protein Yoghurt Mixed Berry 175g",
+        "stockcode": "167289",
+        "status": "found",
+        "was_price": 3.9,
+        "is_special": false
+      },
+      {
+        "item": "Yopro perform high protein yoghurt strawberry 175g",
+        "quantity": 1,
+        "invoice_price": 3.0,
+        "current_price": 3.9,
+        "product_name": "YoPRO Perform High Protein Yoghurt Strawberry 175g",
+        "stockcode": "205064",
+        "status": "found",
+        "was_price": 3.9,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths gourmet leaf mix pdm 120g",
+        "quantity": 1,
+        "invoice_price": 2.7,
+        "current_price": 2.7,
+        "product_name": "Woolworths Gourmet Leaf Mix 120g",
+        "stockcode": "6036212",
+        "status": "found",
+        "was_price": 2.7,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths spreadable light cream cheese pdm 250g",
+        "quantity": 1,
+        "invoice_price": 2.6,
+        "current_price": 2.6,
+        "product_name": "Woolworths Spreadable Light Cream Cheese 250g",
+        "stockcode": "155151",
+        "status": "found",
+        "was_price": 2.6,
+        "is_special": false
+      },
+      {
+        "item": "Woolworths broccolini bunch pdm each",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": 3.5,
+        "product_name": "Woolworths Broccolini Bunch each",
+        "stockcode": "187314",
+        "status": "found",
+        "was_price": 3.5,
+        "is_special": false
+      },
+      {
+        "item": "Doritos corn chips cheese supreme share pack 170g",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": 3.5,
+        "product_name": "Doritos Corn Chips Cheese Supreme Share Pack 170g",
+        "stockcode": "826731",
+        "status": "found",
+        "was_price": 5,
+        "is_special": true
+      },
+      {
+        "item": "Thins chips salt & vinegar 175g",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": 5,
+        "product_name": "Thins Chips Salt & Vinegar 175g",
+        "stockcode": "319951",
+        "status": "found",
+        "was_price": 5,
+        "is_special": false
+      },
+      {
+        "item": "Pandaroo coconut milk 400ml",
+        "quantity": 1,
+        "invoice_price": 2.25,
+        "current_price": 2.25,
+        "product_name": "Pandaroo Coconut Milk 400mL",
+        "stockcode": "189725",
+        "status": "found",
+        "was_price": 2.25,
+        "is_special": false
+      },
+      {
+        "item": "Frisp edamame beans pdm 200g",
+        "quantity": 1,
+        "invoice_price": 2.0,
+        "current_price": 2,
+        "product_name": "Frisp Edamame Beans 200g",
+        "stockcode": "6026555",
+        "status": "found",
+        "was_price": 2,
+        "is_special": false
+      },
+      {
+        "item": "Essentials tomato paste pdm 500g",
+        "quantity": 1,
+        "invoice_price": 1.4,
+        "current_price": 1.4,
+        "product_name": "Essentials Tomato Paste 500g",
+        "stockcode": "34004",
+        "status": "found",
+        "was_price": 1.4,
+        "is_special": false
+      },
+      {
+        "item": "Kettle sea salt & vinegar chips chips 165g",
+        "quantity": 1,
+        "invoice_price": 3.9,
+        "current_price": 6,
+        "product_name": "Kettle Sea Salt & Vinegar Potato Chips 165g",
+        "stockcode": "236807",
+        "status": "found",
+        "was_price": 6,
+        "is_special": false
+      },
+      {
+        "item": "Vege chips barbeque pdm 100g",
+        "quantity": 1,
+        "invoice_price": 1.5,
+        "current_price": 4.9,
+        "product_name": "Vege Chips Barbeque 100g",
+        "stockcode": "96154",
+        "status": "found",
+        "was_price": 4.9,
+        "is_special": false
+      },
+      {
+        "item": "Thomas dux camembert cheese 125g",
+        "quantity": 1,
+        "invoice_price": 2.7,
+        "current_price": 2.7,
+        "product_name": "Thomas Dux Camembert Cheese 125g",
+        "stockcode": "311843",
+        "status": "found",
+        "was_price": 2.7,
+        "is_special": false
+      },
+      {
+        "item": "Liddells lactose free low fat long life milk uht 1l",
+        "quantity": 1,
+        "invoice_price": 2.5,
+        "current_price": 2.7,
+        "product_name": "Liddells Lactose Free Low Fat Long Life Milk UHT 1L",
+        "stockcode": "893477",
+        "status": "found",
+        "was_price": 2.7,
+        "is_special": false
+      },
+      {
+        "item": "Nature's gift dog treats mini treats beef liver 130g",
+        "quantity": 1,
+        "invoice_price": 3.5,
+        "current_price": 2.45,
+        "product_name": "Nature's Gift Mini Dog Treats Beef Liver 130g",
+        "stockcode": "271264",
+        "status": "found",
+        "was_price": 3.5,
+        "is_special": true
+      },
+      {
+        "item": "Woolworths natural greek style yoghurt 1kg",
+        "quantity": 1,
+        "invoice_price": 3.8,
+        "current_price": 3.8,
+        "product_name": "Woolworths Natural Greek Style Yoghurt 1kg",
+        "stockcode": "571487",
+        "status": "found",
+        "was_price": 3.8,
+        "is_special": false
+      },
+      {
+        "item": "Essentials white vinegar 2l",
+        "quantity": 1,
+        "invoice_price": 1.85,
+        "current_price": 1.85,
+        "product_name": "Essentials White Vinegar 2L",
+        "stockcode": "94706",
+        "status": "found",
+        "was_price": 1.85,
+        "is_special": false
+      },
+      {
+        "item": "La gina italian tomato paste passata 680g",
+        "quantity": 1,
+        "invoice_price": 1.95,
+        "current_price": 1.95,
+        "product_name": "La Gina Italian Tomato Paste Passata 680g",
+        "stockcode": "63005",
+        "status": "found",
+        "was_price": 1.95,
+        "is_special": false
+      },
+      {
+        "item": "Macro organic coconut milk pdm 400ml",
+        "quantity": 1,
+        "invoice_price": 2.1,
+        "current_price": null,
+        "status": "no_results",
+        "product_name": null,
+        "stockcode": null
+      },
+      {
+        "item": "Woolworths microwave jasmine rice 250g",
+        "quantity": 1,
+        "invoice_price": 1.8,
+        "current_price": 1.8,
+        "product_name": "Woolworths Microwave Jasmine Rice 250g",
+        "stockcode": "360346",
+        "status": "found",
+        "was_price": 1.8,
+        "is_special": false
+      },
+      {
+        "item": "Dilmah extra strength tea bags 50 pack",
+        "quantity": 1,
+        "invoice_price": 3.85,
+        "current_price": 4.8,
+        "product_name": "Dilmah Extra Strength Tea Bags 50 pack",
+        "stockcode": "6070224",
+        "status": "found",
+        "was_price": 4.8,
+        "is_special": false
+      },
+      {
+        "item": "Tassal smoked salmon pdm 150g",
+        "quantity": 1,
+        "invoice_price": 11.0,
+        "current_price": 15,
+        "product_name": "Tassal Smoked Salmon 150g",
+        "stockcode": "847049",
+        "status": "found",
+        "was_price": 15,
+        "is_special": false
+      }
+    ]
+  }
+]

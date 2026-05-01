@@ -1,0 +1,1694 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="referrer" content="no-referrer" />
+        <title>Woolies Price Tracker — Golden Retriever Deals</title>
+        <style>
+            :root {
+                --bg: #0f1117;
+                --surface: #1a1d27;
+                --surface-2: #222633;
+                --border: #2a2e3a;
+                --text: #e4e6ef;
+                --text-muted: #8b8fa3;
+                --green: #059669;
+                --green-bright: #10b981;
+                --green-bg: rgba(5, 150, 105, 0.12);
+                --green-bg-strong: rgba(5, 150, 105, 0.18);
+                --red: #ef4444;
+                --red-bg: rgba(239, 68, 68, 0.1);
+                --red-bg-strong: rgba(239, 68, 68, 0.16);
+                --amber: #f59e0b;
+                --amber-bg: rgba(245, 158, 11, 0.1);
+                --radius: 10px;
+                --radius-sm: 6px;
+                --font:
+                    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                    "Helvetica Neue", Arial, sans-serif;
+                --font-mono:
+                    "SF Mono", "Fira Code", "JetBrains Mono", Menlo, monospace;
+            }
+
+            *,
+            *::before,
+            *::after {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background: var(--bg);
+                color: var(--text);
+                font-family: var(--font);
+                line-height: 1.5;
+                -webkit-font-smoothing: antialiased;
+            }
+
+            /* HERO */
+            .hero {
+                background: linear-gradient(180deg, #1a2a1e 0%, var(--bg) 100%);
+                border-bottom: 1px solid rgba(5, 150, 105, 0.15);
+                padding: 48px 24px 56px;
+                text-align: center;
+                position: relative;
+                overflow: hidden;
+            }
+            .hero::before {
+                content: "";
+                position: absolute;
+                top: -40%;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 600px;
+                height: 600px;
+                background: radial-gradient(
+                    circle,
+                    rgba(5, 150, 105, 0.06) 0%,
+                    transparent 70%
+                );
+                pointer-events: none;
+            }
+            .hero-pixel-art {
+                width: 160px;
+                height: auto;
+                image-rendering: pixelated;
+                image-rendering: crisp-edges;
+                border-radius: 12px;
+                box-shadow:
+                    0 0 60px rgba(5, 150, 105, 0.15),
+                    0 8px 32px rgba(0, 0, 0, 0.4);
+                margin-bottom: 28px;
+                position: relative;
+                z-index: 1;
+            }
+            .hero h1 {
+                font-size: clamp(28px, 5vw, 48px);
+                font-weight: 800;
+                letter-spacing: -0.03em;
+                color: #fff;
+                position: relative;
+                z-index: 1;
+            }
+            .hero h1 span {
+                color: var(--green-bright);
+            }
+            .hero p {
+                color: var(--text-muted);
+                font-size: 17px;
+                margin-top: 8px;
+                position: relative;
+                z-index: 1;
+            }
+
+            /* STATS BAR */
+            .stats {
+                max-width: 1200px;
+                margin: -28px auto 0;
+                padding: 0 24px;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 16px;
+                position: relative;
+                z-index: 2;
+            }
+            .stat-card {
+                background: var(--surface);
+                border: 1px solid var(--border);
+                border-radius: var(--radius);
+                padding: 20px 24px;
+                text-align: center;
+            }
+            .stat-value {
+                font-size: 28px;
+                font-weight: 700;
+                letter-spacing: -0.02em;
+            }
+            .stat-label {
+                color: var(--text-muted);
+                font-size: 13px;
+                margin-top: 2px;
+                text-transform: uppercase;
+                letter-spacing: 0.04em;
+            }
+            .stat-green {
+                color: var(--green-bright);
+            }
+            .stat-red {
+                color: var(--red);
+            }
+            .stat-amber {
+                color: var(--amber);
+            }
+
+            /* MAIN TABLE */
+            .main {
+                max-width: 1400px;
+                margin: 40px auto 60px;
+                padding: 0 24px;
+            }
+            .table-controls {
+                display: flex;
+                gap: 8px;
+                flex-wrap: wrap;
+                margin-bottom: 20px;
+                align-items: center;
+            }
+            .search-input {
+                background: var(--surface);
+                border: 1px solid var(--border);
+                border-radius: var(--radius-sm);
+                color: var(--text);
+                padding: 10px 16px;
+                font-size: 14px;
+                width: 280px;
+                font-family: var(--font);
+                transition: border-color 0.2s;
+            }
+            .search-input:focus {
+                outline: none;
+                border-color: var(--green);
+                box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.15);
+            }
+            .search-input::placeholder {
+                color: var(--text-muted);
+            }
+            .filter-btn {
+                background: var(--surface);
+                border: 1px solid var(--border);
+                border-radius: var(--radius-sm);
+                color: var(--text-muted);
+                padding: 10px 16px;
+                font-size: 13px;
+                cursor: pointer;
+                font-family: var(--font);
+                transition: all 0.15s;
+                white-space: nowrap;
+            }
+            .filter-btn:hover {
+                border-color: var(--green);
+                color: var(--text);
+            }
+            .filter-btn.active {
+                background: var(--green-bg);
+                border-color: var(--green);
+                color: var(--green-bright);
+            }
+            .result-count {
+                color: var(--text-muted);
+                font-size: 13px;
+                margin-left: auto;
+            }
+
+            .table-wrap {
+                background: var(--surface);
+                border: 1px solid var(--border);
+                border-radius: var(--radius);
+                overflow: hidden;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                font-size: 14px;
+            }
+            thead {
+                background: var(--surface-2);
+                position: sticky;
+                top: 0;
+                z-index: 1;
+            }
+            th {
+                padding: 14px 16px;
+                text-align: left;
+                font-weight: 600;
+                font-size: 12px;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                color: var(--text-muted);
+                border-bottom: 1px solid var(--border);
+                white-space: nowrap;
+                cursor: pointer;
+                user-select: none;
+            }
+            th:hover {
+                color: var(--text);
+            }
+            th.sorted {
+                color: var(--green-bright);
+            }
+            th .sort-arrow {
+                font-size: 10px;
+                margin-left: 4px;
+            }
+            td {
+                padding: 12px 16px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+                vertical-align: middle;
+            }
+            tr:last-child td {
+                border-bottom: none;
+            }
+            tr:hover {
+                background: rgba(255, 255, 255, 0.02);
+            }
+            .product-cell {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                min-width: 0;
+            }
+            .product-img {
+                width: 48px;
+                height: 48px;
+                border-radius: var(--radius-sm);
+                object-fit: contain;
+                background: #fff;
+                border: 1px solid var(--border);
+                flex-shrink: 0;
+            }
+            .product-img-fallback {
+                width: 48px;
+                height: 48px;
+                border-radius: var(--radius-sm);
+                background: var(--surface-2);
+                border: 1px solid var(--border);
+                flex-shrink: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 20px;
+                color: var(--text-muted);
+            }
+            .product-name {
+                font-weight: 500;
+                line-height: 1.3;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .product-link {
+                color: var(--green-bright);
+                text-decoration: none;
+                font-size: 12px;
+                display: inline-flex;
+                align-items: center;
+                gap: 4px;
+                margin-top: 2px;
+                transition: color 0.15s;
+            }
+            .product-link:hover {
+                color: #fff;
+            }
+            .price {
+                font-family: var(--font-mono);
+                font-weight: 600;
+                font-size: 15px;
+            }
+            .price-was {
+                font-family: var(--font-mono);
+                color: var(--text-muted);
+                text-decoration: line-through;
+                font-size: 13px;
+            }
+
+            /* DISCOUNT BADGE */
+            .discount-badge {
+                display: inline-flex;
+                align-items: center;
+                gap: 4px;
+                padding: 3px 10px;
+                border-radius: 20px;
+                font-weight: 700;
+                font-size: 13px;
+                font-family: var(--font-mono);
+                white-space: nowrap;
+            }
+            .discount-down {
+                background: var(--green-bg);
+                color: var(--green-bright);
+            }
+            .discount-up {
+                background: var(--red-bg);
+                color: var(--red);
+            }
+            .discount-same {
+                background: var(--amber-bg);
+                color: var(--amber);
+            }
+
+            /* VS BASELINE BAR */
+            .vs-baseline {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                font-size: 12px;
+                font-family: var(--font-mono);
+                min-width: 140px;
+            }
+            .vs-baseline .bar-track {
+                flex: 1;
+                height: 8px;
+                background: var(--surface-2);
+                border-radius: 4px;
+                overflow: hidden;
+                position: relative;
+            }
+            .vs-baseline .bar-fill {
+                height: 100%;
+                border-radius: 4px;
+                transition: width 0.3s ease;
+                position: absolute;
+                left: 0;
+            }
+            .vs-baseline .bar-marker {
+                position: absolute;
+                top: -3px;
+                width: 2px;
+                height: 14px;
+                background: var(--text-muted);
+                border-radius: 1px;
+                z-index: 1;
+            }
+            .vs-label {
+                font-weight: 600;
+                white-space: nowrap;
+            }
+
+            /* STATUS DOT */
+            .status-dot {
+                display: inline-block;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                margin-right: 6px;
+            }
+            .status-below {
+                background: var(--green-bright);
+            }
+            .status-above {
+                background: var(--red);
+            }
+            .status-same {
+                background: var(--amber);
+            }
+
+            /* Empty state */
+            .empty-state {
+                text-align: center;
+                padding: 60px 24px;
+                color: var(--text-muted);
+            }
+            .empty-state .emoji {
+                font-size: 40px;
+                margin-bottom: 12px;
+            }
+
+            /* RESPONSIVE */
+            @media (max-width: 900px) {
+                .stats {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+                th:nth-child(6),
+                td:nth-child(6) {
+                    display: none;
+                }
+            }
+            @media (max-width: 600px) {
+                .hero {
+                    padding: 32px 16px 40px;
+                }
+                .hero-pixel-art {
+                    width: 120px;
+                }
+                .hero h1 {
+                    font-size: 24px;
+                }
+                .stats {
+                    grid-template-columns: 1fr 1fr;
+                    gap: 8px;
+                    padding: 0 12px;
+                }
+                .stat-card {
+                    padding: 14px 16px;
+                }
+                .stat-value {
+                    font-size: 22px;
+                }
+                .main {
+                    padding: 0 12px;
+                }
+                .search-input {
+                    width: 100%;
+                }
+                th:nth-child(4),
+                td:nth-child(4),
+                th:nth-child(6),
+                td:nth-child(6) {
+                    display: none;
+                }
+            }
+
+            .footer {
+                text-align: center;
+                padding: 24px;
+                color: var(--text-muted);
+                font-size: 12px;
+                border-top: 1px solid var(--border);
+            }
+            .footer a {
+                color: var(--green-bright);
+                text-decoration: none;
+            }
+
+            ::-webkit-scrollbar {
+                width: 8px;
+                height: 8px;
+            }
+            ::-webkit-scrollbar-track {
+                background: var(--bg);
+            }
+            ::-webkit-scrollbar-thumb {
+                background: var(--border);
+                border-radius: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="hero">
+            <img
+                src="golden_retriever_pixel.png"
+                alt="Pixel art golden retriever"
+                class="hero-pixel-art"
+            />
+            <h1>Woolies <span>Price Tracker</span></h1>
+            <p>
+                Current prices vs your baseline baseline — sorted by biggest
+                savings
+            </p>
+        </section>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-value" id="statTotal">-</div>
+                <div class="stat-label">Items Tracked</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value stat-green" id="statDeals">-</div>
+                <div class="stat-label">Below baseline ↓</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value stat-red" id="statUp">-</div>
+                <div class="stat-label">Above baseline ↑</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value stat-amber" id="statSame">-</div>
+                <div class="stat-label">Same Price</div>
+            </div>
+        </div>
+
+        <main class="main">
+            <div class="table-controls">
+                <input
+                    type="text"
+                    class="search-input"
+                    placeholder="Search items… (press /)"
+                    id="searchInput"
+                    autofocus
+                />
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="down">
+                    ↓ Below baseline
+                </button>
+                <button class="filter-btn" data-filter="up">
+                    ↑ Above baseline
+                </button>
+                <button class="filter-btn" data-filter="same">
+                    Same Price
+                </button>
+                <span class="result-count" id="resultCount"></span>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 42%" data-sort="name">Product</th>
+                            <th
+                                style="width: 10%"
+                                class="sorted"
+                                data-sort="discount"
+                            >
+                                vs baseline <span class="sort-arrow">▼</span>
+                            </th>
+                            <th style="width: 10%">Now</th>
+                            <th style="width: 10%">baseline</th>
+                            <th style="width: 10%" data-sort="now">
+                                vs Baseline
+                            </th>
+                            <th style="width: 18%">Savings / Extra</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody"></tbody>
+                </table>
+            </div>
+            <div class="empty-state" id="emptyState" style="display: none">
+                <div class="emoji">🔍</div>
+                <p>No items match your search</p>
+            </div>
+        </main>
+
+        <footer class="footer">
+            Woolies Price Tracker ·
+            <a href="https://www.woolworths.com.au" target="_blank"
+                >Woolworths.com.au</a
+            >
+            · Last price check: <span id="lastUpdated">-</span>
+        </footer>
+
+        <script>
+            const DATA = [
+                {
+                    name: "Nature's Gift Mini Dog Treats Beef Liver 130g",
+                    search_name:
+                        "Nature's gift dog treats mini treats beef liver 130g",
+                    current_price: 2.45,
+                    baseline_price: 3.5,
+                    discount_pct: 30.0,
+                    stockcode: "271264",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [2.45],
+                    history_dates: ["2026-04-30"],
+                },
+                {
+                    name: "Mission Carb Balance Original Wraps 6 pack",
+                    search_name:
+                        "Mission carb balance original wraps pdm 6 pack",
+                    current_price: 5.0,
+                    baseline_price: 6.5,
+                    discount_pct: 23.1,
+                    stockcode: "919345",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [5, 5, 5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Woolworths Asian Salad Bowl 230g",
+                    search_name: "Woolworths asian salad bowl pdm 230g",
+                    current_price: 5.5,
+                    baseline_price: 6.0,
+                    discount_pct: 8.3,
+                    stockcode: "164644",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [5.5, 5.5, 5.5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Mission Low Gi Wraps Wholemeal 6 pack",
+                    search_name: "Mission low gi wraps wholemeal 6 pack",
+                    current_price: 5.6,
+                    baseline_price: 5.5,
+                    discount_pct: -1.8,
+                    stockcode: "575874",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [5.6, 5.6, 5.6],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Red Capsicum each",
+                    search_name: "Red capsicum pdm each",
+                    current_price: 3.48,
+                    baseline_price: 3.23,
+                    discount_pct: -7.7,
+                    stockcode: "135306",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [3.48, 3.48, 3.48],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Liddells Lactose Free Low Fat Long Life Milk UHT 1L",
+                    search_name:
+                        "Liddells lactose free low fat long life milk uht 1l",
+                    current_price: 2.7,
+                    baseline_price: 2.5,
+                    discount_pct: -8.0,
+                    stockcode: "893477",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [2.7],
+                    history_dates: ["2026-04-30"],
+                },
+                {
+                    name: "Woolworths Chili Lime Salad Kit 350g",
+                    search_name: "Woolworths chili lime salad kit pdm 350g",
+                    current_price: 5.5,
+                    baseline_price: 5.0,
+                    discount_pct: -10.0,
+                    stockcode: "6036189",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [5.5, 5.5, 5.5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Woolworths Honey Mustard Salad Kit 285g",
+                    search_name: "Woolworths honey mustard salad kit pdm 285g",
+                    current_price: 5.5,
+                    baseline_price: 5.0,
+                    discount_pct: -10.0,
+                    stockcode: "210686",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [5.5, 5.5, 5.5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Strength Meals Co Beef Tortellini Bolognese 350g",
+                    search_name:
+                        "Strength meals co beef tortellini bolognese 350g",
+                    current_price: 9.95,
+                    baseline_price: 8.95,
+                    discount_pct: -11.2,
+                    stockcode: "353746",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [9.95, 9.95, 9.95],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Strength Meals Co Classic Chicken Dinner With Gravy 350g",
+                    search_name:
+                        "Strength meals co classic chicken dinner with gravy 350g",
+                    current_price: 9.95,
+                    baseline_price: 8.95,
+                    discount_pct: -11.2,
+                    stockcode: "349220",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [9.95, 9.95, 9.95],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Campbell's Real Stock Chicken 1L",
+                    search_name: "Campbell's real stock chicken pdm 1l",
+                    current_price: 4.5,
+                    baseline_price: 4.0,
+                    discount_pct: -12.5,
+                    stockcode: "77750",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [4.5, 4.5, 4.5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Woolworths Smooth Peanut Butter 500g",
+                    search_name: "Select smooth peanut butter 500g",
+                    current_price: 3.4,
+                    baseline_price: 3.0,
+                    discount_pct: -13.3,
+                    stockcode: "233922",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [3.4, 3.4, 3.4],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "MasterFoods Mild American Mustard 250g",
+                    search_name: "Masterfoods mild american mustard pdm 250g",
+                    current_price: 4.2,
+                    baseline_price: 3.5,
+                    discount_pct: -20.0,
+                    stockcode: "36557",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [4.2, 4.2, 4.2],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Dilmah Extra Strength Tea Bags 50 pack",
+                    search_name: "Dilmah extra strength tea bags 50 pack",
+                    current_price: 4.8,
+                    baseline_price: 3.85,
+                    discount_pct: -24.7,
+                    stockcode: "6070224",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [4.8],
+                    history_dates: ["2026-04-30"],
+                },
+                {
+                    name: "MonDeli Australian Made Leg Ham 100g",
+                    search_name: "Mondeli australian made leg ham pdm 100g",
+                    current_price: 7.5,
+                    baseline_price: 6.0,
+                    discount_pct: -25.0,
+                    stockcode: "6008635",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [7.5, 7.5, 7.5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "MonDeli Premium Australian Prosciutto 80g",
+                    search_name:
+                        "Mondeli premium australian prosciutto pdm 80g",
+                    current_price: 7.5,
+                    baseline_price: 6.0,
+                    discount_pct: -25.0,
+                    stockcode: "6007124",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [7.5, 7.5, 7.5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Jalna Pot Set 99% Fat Free Yoghurt 1kg",
+                    search_name: "Jalna pot set fat free yoghurt 1kg",
+                    current_price: 8.8,
+                    baseline_price: 7.0,
+                    discount_pct: -25.7,
+                    stockcode: "43053",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [8.8, 8.8, 8.8],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Pauls Plus Protein Dairy Snack Vanilla 160g",
+                    search_name: "Pauls plus protein dairy snack vanilla 160g",
+                    current_price: 3.1,
+                    baseline_price: 2.45,
+                    discount_pct: -26.5,
+                    stockcode: "6004840",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [3.1, 3.1, 3.1],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Mt Barker Free Range Roasted Carved Chicken Breast 220g",
+                    search_name:
+                        "Mt barker free range roasted carved chicken breast 220g",
+                    current_price: 8.9,
+                    baseline_price: 7.0,
+                    discount_pct: -27.1,
+                    stockcode: "906432",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [8.9, 8.9, 8.9],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Mt Barker Lemon & Herb Greek Style Sliced Chicken 220g",
+                    search_name:
+                        "Mt barker lemon & herb greek style sliced chicken 220g",
+                    current_price: 8.9,
+                    baseline_price: 7.0,
+                    discount_pct: -27.1,
+                    stockcode: "6030285",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [8.9, 8.9, 8.9],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "YoPRO Perform High Protein Yoghurt Mango Passionfruit 175g",
+                    search_name:
+                        "Yopro perform high protein yoghurt mango passionfruit 175g",
+                    current_price: 3.9,
+                    baseline_price: 3.0,
+                    discount_pct: -30.0,
+                    stockcode: "167433",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [3.9, 3.9, 3.9],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "YoPRO Perform High Protein Yoghurt Mixed Berry 175g",
+                    search_name:
+                        "Yopro perform high protein yoghurt mixed berry 175g",
+                    current_price: 3.9,
+                    baseline_price: 3.0,
+                    discount_pct: -30.0,
+                    stockcode: "167289",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [3.9, 3.9, 3.9],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "YoPRO Perform High Protein Yoghurt Strawberry 175g",
+                    search_name:
+                        "Yopro perform high protein yoghurt strawberry 175g",
+                    current_price: 3.9,
+                    baseline_price: 3.0,
+                    discount_pct: -30.0,
+                    stockcode: "205064",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [3.9, 3.9, 3.9],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Tassal Smoked Salmon 150g",
+                    search_name: "Tassal smoked salmon pdm 150g",
+                    current_price: 15.0,
+                    baseline_price: 11.0,
+                    discount_pct: -36.4,
+                    stockcode: "847049",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [15],
+                    history_dates: ["2026-04-30"],
+                },
+                {
+                    name: "John West Tuna Chunks In Springwater 95g",
+                    search_name: "John west tuna chunks in springwater pdm 95g",
+                    current_price: 2.0,
+                    baseline_price: 1.45,
+                    discount_pct: -37.9,
+                    stockcode: "340411",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [2, 2, 2],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Woolworths Broccolini Bunch each",
+                    search_name: "Woolworths broccolini bunch pdm each",
+                    current_price: 3.5,
+                    baseline_price: 2.5,
+                    discount_pct: -40.0,
+                    stockcode: "187314",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [3.5, 3.5, 3.5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Doritos Corn Chips Cheese Supreme Share Pack 170g",
+                    search_name:
+                        "Doritos corn chips cheese supreme share pack 170g",
+                    current_price: 3.5,
+                    baseline_price: 2.5,
+                    discount_pct: -40.0,
+                    stockcode: "826731",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [3.5, 3.5, 3.5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Bow Wow Pig Ears Dog Treats 5 pack",
+                    search_name: "Bow wow pig ears dog treats 5 pack",
+                    current_price: 16.8,
+                    baseline_price: 11.0,
+                    discount_pct: -52.7,
+                    stockcode: "323774",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [16.8, 16.8, 16.8],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Kettle Sea Salt & Vinegar Potato Chips 165g",
+                    search_name: "Kettle sea salt & vinegar chips chips 165g",
+                    current_price: 6.0,
+                    baseline_price: 3.9,
+                    discount_pct: -53.8,
+                    stockcode: "236807",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [6, 6, 6],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Snickers Gold Frozen Dessert Bar 5 pack",
+                    search_name: "Snickers frozen dessert bars pdm 5 pack",
+                    current_price: 9.5,
+                    baseline_price: 6.0,
+                    discount_pct: -58.3,
+                    stockcode: "6041784",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [9.5, 9.5, 9.5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Dine Adult Wet Cat Food Saucy Morsels with Salmon Trays 85g x 7 pack",
+                    search_name:
+                        "Dine adult wet cat food saucy morsels with salmon trays 85g x 7 pack",
+                    current_price: 8.0,
+                    baseline_price: 5.0,
+                    discount_pct: -60.0,
+                    stockcode: "349075",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [8, 8, 8],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Dine Adult Wet Cat Food Saucy Morsels with Tuna & Cheese 85g x 7 pack",
+                    search_name:
+                        "Dine adult wet cat food saucy morsels with tuna & cheese 85g x 7 pack",
+                    current_price: 8.0,
+                    baseline_price: 5.0,
+                    discount_pct: -60.0,
+                    stockcode: "477637",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [8, 8, 8],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Finish Ultimate Dishwashing Tablets Lemon 70 pack",
+                    search_name:
+                        "Finish ultimate dishwashing tablets lemon 70 pack",
+                    current_price: 64.0,
+                    baseline_price: 32.0,
+                    discount_pct: -100.0,
+                    stockcode: "6019017",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [64, 64, 64],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Red Rock Deli Potato Chips Honey Soy & Chicken 290g",
+                    search_name:
+                        "Red rock deli potato chips party bag honey soy & chicken 290g",
+                    current_price: 8.5,
+                    baseline_price: 4.25,
+                    discount_pct: -100.0,
+                    stockcode: "54682",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [8.5, 8.5, 8.5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Thins Chips Salt & Vinegar 175g",
+                    search_name: "Thins chips salt & vinegar 175g",
+                    current_price: 5.0,
+                    baseline_price: 2.5,
+                    discount_pct: -100.0,
+                    stockcode: "319951",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [5, 5, 5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Vege Chips Barbeque 100g",
+                    search_name: "Vege chips barbeque pdm 100g",
+                    current_price: 4.9,
+                    baseline_price: 1.5,
+                    discount_pct: -226.7,
+                    stockcode: "96154",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [4.9, 4.9, 4.9],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Golden Crumpets Round 6 pack",
+                    search_name: "Golden crumpets round 6 pack",
+                    current_price: 2.4,
+                    baseline_price: 2.4,
+                    discount_pct: 0.0,
+                    stockcode: "49622",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [2.4, 2.4, 2.4],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Deep Cove Sardines In Springwater 125g",
+                    search_name: "Deep cove sardines in springwater pdm 125g",
+                    current_price: 1.0,
+                    baseline_price: 1.0,
+                    discount_pct: 0.0,
+                    stockcode: "83235",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [1, 1],
+                    history_dates: ["2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Eclipse Peppermint Sugar Free Mints Tin 40g",
+                    search_name: "Eclipse peppermint sugar free mints tin 40g",
+                    current_price: 3.5,
+                    baseline_price: 3.5,
+                    discount_pct: 0.0,
+                    stockcode: "815854",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [3.5, 3.5, 3.5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Eclipse Spearmint Sugar Free Mints Tin 40g",
+                    search_name: "Eclipse spearmint sugar free mints tin 40g",
+                    current_price: 3.5,
+                    baseline_price: 3.5,
+                    discount_pct: 0.0,
+                    stockcode: "815853",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [3.5, 3.5, 3.5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Eclipse Strawberry Sugar Free Mints Tin 40g",
+                    search_name: "Eclipse strawberry sugar free mints tin 40g",
+                    current_price: 3.5,
+                    baseline_price: 3.5,
+                    discount_pct: 0.0,
+                    stockcode: "815855",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [3.5, 3.5, 3.5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Chobani Greek Yoghurt Natural Light Plain 907g",
+                    search_name:
+                        "Chobani greek yoghurt natural light plain 907g",
+                    current_price: 7.9,
+                    baseline_price: 7.9,
+                    discount_pct: 0.0,
+                    stockcode: "717518",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [7.9, 7.9, 7.9],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Harvey Fresh Lactose Free HiLo Milk 2L",
+                    search_name: "Harvey fresh lactose free hilo milk pdm 2l",
+                    current_price: 6.2,
+                    baseline_price: 6.2,
+                    discount_pct: 0.0,
+                    stockcode: "240744",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [6.2, 6.2, 6.2],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Woolworths Light Thickened Cream 300mL",
+                    search_name: "Woolworths light thickened cream 300ml",
+                    current_price: 3.4,
+                    baseline_price: 3.4,
+                    discount_pct: 0.0,
+                    stockcode: "838737",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [3.4, 3.4, 3.4],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Nestle Carnation Light & Creamy Evaporated Milk 340mL",
+                    search_name:
+                        "Nestle carnation light & creamy evaporated milk 340ml",
+                    current_price: 3.0,
+                    baseline_price: 3.0,
+                    discount_pct: 0.0,
+                    stockcode: "151917",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [3, 3],
+                    history_dates: ["2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Coca-Cola Zero Sugar Soft Drink Multipack Cans 375mL x 10 pack",
+                    search_name:
+                        "Coca-cola zero sugar soft drink multipack cans 375ml x 10 pack",
+                    current_price: 10.5,
+                    baseline_price: 10.5,
+                    discount_pct: 0.0,
+                    stockcode: "669379",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [10.5, 10.5, 10.5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Woolworths Potato Minis 1kg",
+                    search_name: "Woolworths potato minis 1kg",
+                    current_price: 5.0,
+                    baseline_price: 5.0,
+                    discount_pct: 0.0,
+                    stockcode: "695650",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [5, 5, 5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Woolworths Baby Leaf Spinach 120g",
+                    search_name: "Woolworths baby leaf spinach 120g",
+                    current_price: 2.7,
+                    baseline_price: 2.7,
+                    discount_pct: 0.0,
+                    stockcode: "524322",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [2.7, 2.7, 2.7],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Woolworths Iceberg Shredded Lettuce 200g",
+                    search_name: "Woolworths iceberg shredded lettuce pdm 200g",
+                    current_price: 2.0,
+                    baseline_price: 2.0,
+                    discount_pct: 0.0,
+                    stockcode: "638009",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [2, 2, 2],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Woolworths Mushroom Sliced 500g",
+                    search_name: "Woolworths mushroom sliced pdm 500g",
+                    current_price: 7.0,
+                    baseline_price: 7.0,
+                    discount_pct: 0.0,
+                    stockcode: "89466",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [7, 7, 7],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Vetta SMART Protein Spirals Pasta 375g",
+                    search_name: "Vetta smart protein spirals pasta pdm 375g",
+                    current_price: 3.0,
+                    baseline_price: 3.0,
+                    discount_pct: 0.0,
+                    stockcode: "117547",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [3, 3, 3],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Nando's Perinaise Mild Peri-Peri Mayonnaise Sauce 465g",
+                    search_name:
+                        "Nando's perinaise mild peri-peri mayonnaise sauce 465g",
+                    current_price: 7.5,
+                    baseline_price: 7.5,
+                    discount_pct: 0.0,
+                    stockcode: "880522",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [7.5, 7.5, 7.5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Dairyworks Cheddar Slices Value 32 pack",
+                    search_name: "Dairyworks cheddar slices value 32 pack",
+                    current_price: 8.0,
+                    baseline_price: 8.0,
+                    discount_pct: 0.0,
+                    stockcode: "178118",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [8, 8, 8],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Woolworths Tasty Cheese Shredded 250g",
+                    search_name: "Woolworths tasty cheese shredded 250g",
+                    current_price: 5.0,
+                    baseline_price: 5.0,
+                    discount_pct: 0.0,
+                    stockcode: "729025",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [5, 5, 5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Onion Shallot French each",
+                    search_name: "onion shallot french pdm each",
+                    current_price: 0.6,
+                    baseline_price: 0.6,
+                    discount_pct: 0.0,
+                    stockcode: "189459",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [0.6, 0.6, 0.6],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Woolworths Pasta Macaroni 500g",
+                    search_name: "Woolworths pasta macaroni 500g",
+                    current_price: 1.0,
+                    baseline_price: 1.0,
+                    discount_pct: 0.0,
+                    stockcode: "346837",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [1, 1, 1],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Moccona Freeze Dried Instant Coffee Classic Dark Roast 200g",
+                    search_name:
+                        "Moccona freeze dried instant coffee classic dark roast 200g",
+                    current_price: 23.6,
+                    baseline_price: 23.6,
+                    discount_pct: 0.0,
+                    stockcode: "248520",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [23.6, 23.6, 23.6],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Woolworths Carrots Peas & Corn 1kg",
+                    search_name: "Woolworths carrots peas & corn 1kg",
+                    current_price: 5.0,
+                    baseline_price: 5.0,
+                    discount_pct: 0.0,
+                    stockcode: "768569",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [5, 5, 5],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Pauls Plus Protein Chocolate Yoghurt 160g",
+                    search_name:
+                        "Pauls plus protein chocolate yoghurt pdm 160g",
+                    current_price: 3.1,
+                    baseline_price: 3.1,
+                    discount_pct: 0.0,
+                    stockcode: "502078",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [3.1, 3.1, 3.1],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Woolworths Gourmet Leaf Mix 120g",
+                    search_name: "Woolworths gourmet leaf mix pdm 120g",
+                    current_price: 2.7,
+                    baseline_price: 2.7,
+                    discount_pct: 0.0,
+                    stockcode: "6036212",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [2.7, 2.7, 2.7],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Woolworths Spreadable Light Cream Cheese 250g",
+                    search_name:
+                        "Woolworths spreadable light cream cheese pdm 250g",
+                    current_price: 2.6,
+                    baseline_price: 2.6,
+                    discount_pct: 0.0,
+                    stockcode: "155151",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [2.6, 2.6, 2.6],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Pandaroo Coconut Milk 400mL",
+                    search_name: "Pandaroo coconut milk 400ml",
+                    current_price: 2.25,
+                    baseline_price: 2.25,
+                    discount_pct: 0.0,
+                    stockcode: "189725",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [2.25, 2.25, 2.25],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Frisp Edamame Beans 200g",
+                    search_name: "Frisp edamame beans pdm 200g",
+                    current_price: 2.0,
+                    baseline_price: 2.0,
+                    discount_pct: 0.0,
+                    stockcode: "6026555",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [2, 2, 2],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Essentials Tomato Paste 500g",
+                    search_name: "Essentials tomato paste pdm 500g",
+                    current_price: 1.4,
+                    baseline_price: 1.4,
+                    discount_pct: 0.0,
+                    stockcode: "34004",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [1.4, 1.4, 1.4],
+                    history_dates: ["2026-04-30", "2026-04-30", "2026-04-30"],
+                },
+                {
+                    name: "Thomas Dux Camembert Cheese 125g",
+                    search_name: "Thomas dux camembert cheese 125g",
+                    current_price: 2.7,
+                    baseline_price: 2.7,
+                    discount_pct: 0.0,
+                    stockcode: "311843",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [2.7],
+                    history_dates: ["2026-04-30"],
+                },
+                {
+                    name: "Woolworths Natural Greek Style Yoghurt 1kg",
+                    search_name: "Woolworths natural greek style yoghurt 1kg",
+                    current_price: 3.8,
+                    baseline_price: 3.8,
+                    discount_pct: 0.0,
+                    stockcode: "571487",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [3.8],
+                    history_dates: ["2026-04-30"],
+                },
+                {
+                    name: "Essentials White Vinegar 2L",
+                    search_name: "Essentials white vinegar 2l",
+                    current_price: 1.85,
+                    baseline_price: 1.85,
+                    discount_pct: 0.0,
+                    stockcode: "94706",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [1.85],
+                    history_dates: ["2026-04-30"],
+                },
+                {
+                    name: "La Gina Italian Tomato Paste Passata 680g",
+                    search_name: "La gina italian tomato paste passata 680g",
+                    current_price: 1.95,
+                    baseline_price: 1.95,
+                    discount_pct: 0.0,
+                    stockcode: "63005",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [1.95],
+                    history_dates: ["2026-04-30"],
+                },
+                {
+                    name: "Woolworths Microwave Jasmine Rice 250g",
+                    search_name: "Woolworths microwave jasmine rice 250g",
+                    current_price: 1.8,
+                    baseline_price: 1.8,
+                    discount_pct: 0.0,
+                    stockcode: "360346",
+                    status: "found",
+                    trend: "stable",
+                    history_prices: [1.8],
+                    history_dates: ["2026-04-30"],
+                },
+            ];
+
+            // Stats
+            const totalItems = DATA.length;
+            const belowbaseline = DATA.filter((d) => d.discount_pct > 0).length;
+            const abovebaseline = DATA.filter((d) => d.discount_pct < 0).length;
+            const samePrice = DATA.filter((d) => d.discount_pct === 0).length;
+
+            document.getElementById("statTotal").textContent = totalItems;
+            document.getElementById("statDeals").textContent = belowbaseline;
+            document.getElementById("statUp").textContent = abovebaseline;
+            document.getElementById("statSame").textContent = samePrice;
+
+            // Last updated date
+            if (DATA.length > 0) {
+                const dates = DATA[0].history_dates || [];
+                document.getElementById("lastUpdated").textContent =
+                    dates[dates.length - 1] || "recently";
+            }
+
+            // Image helpers
+            function getImageUrl(stockcode) {
+                const padded = String(stockcode).padStart(6, "0");
+                return `https://cdn0.woolworths.media/content/wowproductimages/large/${padded}.jpg`;
+            }
+
+            function getProductUrl(stockcode) {
+                return `https://www.woolworths.com.au/shop/productdetails/${stockcode}`;
+            }
+
+            // VS Baseline bar: shows current price relative to baseline as a horizontal bar
+            function renderVsBaseline(current, baseline) {
+                if (!baseline || baseline === 0)
+                    return '<span class="vs-label" style="color:var(--text-muted)">—</span>';
+
+                const diff = current - baseline;
+                const absDiff = Math.abs(diff);
+                const pctFrombaseline = Math.round((current / baseline) * 100);
+
+                // Bar always shows current relative to baseline
+                // baseline = 100%, Current is shown as a proportion
+                // If current < baseline: green bar, fills to (current/baseline * 100)%
+                // If current >= baseline: the bar shows baseline as a marker, and current extends past it
+
+                const isBelow = diff < 0;
+                const isAbove = diff > 0;
+                const isSame = diff === 0;
+
+                if (isSame) {
+                    return `<div class="vs-baseline">
+      <span class="status-dot status-same"></span>
+      <span class="vs-label" style="color:var(--amber)">Same price</span>
+    </div>`;
+                }
+
+                // Calculate bar proportions
+                const currentPct = Math.min((current / baseline) * 100, 100); // clamp current to 100% of bar width
+                const barColor = isBelow ? "var(--green-bright)" : "var(--red)";
+                const statusClass = isBelow ? "status-below" : "status-above";
+
+                // The marker is always at the baseline position (right edge of bar when below, inside when above)
+                // When below baseline: bar shows current < baseline, marker at right edge
+                // When above baseline: bar fills to baseline (100%), current is shown as "over"
+                const barFillPct = isBelow
+                    ? ((current / baseline) * 100).toFixed(0)
+                    : 100;
+                const overAmount = isAbove ? `+$${absDiff.toFixed(2)}` : "";
+
+                return `<div class="vs-baseline">
+    <span class="status-dot ${statusClass}"></span>
+    <div class="bar-track" style="flex:1">
+      <div class="bar-fill" style="width:${barFillPct}%;background:${barColor}"></div>
+    </div>
+    <span class="vs-label" style="color:${barColor};min-width:50px;text-align:right">${isBelow ? "-" + absDiff.toFixed(2) : overAmount}</span>
+  </div>`;
+            }
+
+            function renderSavingsExtra(current, baseline) {
+                if (!baseline || baseline === 0)
+                    return '<span style="color:var(--text-muted)">—</span>';
+
+                const diff = current - baseline;
+                const absDiff = Math.abs(diff);
+                const qty = 1; // Default quantity
+
+                if (diff < 0) {
+                    // Savings per unit + annualized estimate (weekly shop * 52)
+                    const weekly = absDiff;
+                    const annual = weekly * 52;
+                    return `<span style="color:var(--green-bright);font-family:var(--font-mono);font-weight:600;font-size:12px">
+      Save ${absDiff.toFixed(2)}/unit
+      <span style="color:var(--text-muted);font-weight:400">· ~$${annual.toFixed(0)}/yr</span>
+    </span>`;
+                } else if (diff > 0) {
+                    const weekly = absDiff;
+                    const annual = weekly * 52;
+                    return `<span style="color:var(--red);font-family:var(--font-mono);font-weight:600;font-size:12px">
+      +$${absDiff.toFixed(2)} extra
+      <span style="color:var(--text-muted);font-weight:400">· ~$${annual.toFixed(0)}/yr</span>
+    </span>`;
+                }
+                return '<span style="color:var(--text-muted)">No change</span>';
+            }
+
+            function getDiscountClass(pct) {
+                if (pct === null || pct === undefined || pct === 0)
+                    return "discount-same";
+                if (pct > 0) return "discount-down";
+                return "discount-up";
+            }
+
+            function renderRow(item) {
+                const pct = item.discount_pct;
+                const pctAbs = pct !== null ? Math.abs(pct).toFixed(1) : null;
+                const pctStr =
+                    pct !== null
+                        ? pct > 0
+                            ? `↓ ${pctAbs}%`
+                            : pct < 0
+                              ? `↑ ${pctAbs}%`
+                              : "Same"
+                        : "—";
+                const dc = getDiscountClass(pct);
+                const imgUrl = item.stockcode
+                    ? getImageUrl(item.stockcode)
+                    : null;
+                const prodUrl = item.stockcode
+                    ? getProductUrl(item.stockcode)
+                    : "#";
+
+                return `<tr>
+    <td>
+      <div class="product-cell">
+        ${
+            imgUrl
+                ? `<img src="${imgUrl}" alt="" class="product-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="product-img-fallback" style="display:none">📦</div>`
+                : '<div class="product-img-fallback">📦</div>'
+        }
+        <div style="min-width:0">
+          <div class="product-name" title="${item.name.replace(/"/g, "&quot;")}">${item.name}</div>
+          <a href="${prodUrl}" class="product-link" target="_blank" rel="noopener">Buy at Woolworths ↗</a>
+        </div>
+      </div>
+    </td>
+    <td><span class="discount-badge ${dc}">${pctStr}</span></td>
+    <td><span class="price">$${item.current_price.toFixed(2)}</span></td>
+    <td><span class="price-was">$${item.baseline_price.toFixed(2)}</span></td>
+    <td>${renderVsBaseline(item.current_price, item.baseline_price)}</td>
+    <td>${renderSavingsExtra(item.current_price, item.baseline_price)}</td>
+  </tr>`;
+            }
+
+            let currentFilter = "all";
+            let currentSort = { field: "discount", dir: "desc" };
+            let searchQuery = "";
+
+            function filterAndSort() {
+                let items = [...DATA];
+
+                if (searchQuery) {
+                    const q = searchQuery.toLowerCase();
+                    items = items.filter(
+                        (d) =>
+                            d.name.toLowerCase().includes(q) ||
+                            d.search_name.toLowerCase().includes(q),
+                    );
+                }
+
+                if (currentFilter === "down")
+                    items = items.filter((d) => d.discount_pct > 0);
+                else if (currentFilter === "up")
+                    items = items.filter((d) => d.discount_pct < 0);
+                else if (currentFilter === "same")
+                    items = items.filter((d) => d.discount_pct === 0);
+
+                items.sort((a, b) => {
+                    let va, vb;
+                    switch (currentSort.field) {
+                        case "discount":
+                            va = a.discount_pct ?? -9999;
+                            vb = b.discount_pct ?? -9999;
+                            break;
+                        case "name":
+                            va = a.name.toLowerCase();
+                            vb = b.name.toLowerCase();
+                            break;
+                        case "now":
+                            va = a.current_price;
+                            vb = b.current_price;
+                            break;
+                        case "baseline":
+                            va = a.baseline_price;
+                            vb = b.baseline_price;
+                            break;
+                        default:
+                            va = a.discount_pct ?? -9999;
+                            vb = b.discount_pct ?? -9999;
+                    }
+                    const cmp =
+                        typeof va === "string" ? va.localeCompare(vb) : va - vb;
+                    return currentSort.dir === "desc" ? -cmp : cmp;
+                });
+
+                document.getElementById("tableBody").innerHTML = items
+                    .map(renderRow)
+                    .join("");
+                document.getElementById("resultCount").textContent =
+                    `${items.length} of ${DATA.length} items`;
+                document.getElementById("emptyState").style.display =
+                    items.length === 0 ? "block" : "none";
+            }
+
+            document
+                .getElementById("searchInput")
+                .addEventListener("input", (e) => {
+                    searchQuery = e.target.value;
+                    filterAndSort();
+                });
+
+            document.querySelectorAll(".filter-btn").forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    document
+                        .querySelectorAll(".filter-btn")
+                        .forEach((b) => b.classList.remove("active"));
+                    btn.classList.add("active");
+                    currentFilter = btn.dataset.filter;
+                    filterAndSort();
+                });
+            });
+
+            document.querySelectorAll("th[data-sort]").forEach((th) => {
+                th.addEventListener("click", () => {
+                    const field = th.dataset.sort;
+                    if (currentSort.field === field) {
+                        currentSort.dir =
+                            currentSort.dir === "desc" ? "asc" : "desc";
+                    } else {
+                        currentSort.field = field;
+                        currentSort.dir = field === "name" ? "asc" : "desc";
+                    }
+                    document
+                        .querySelectorAll("th")
+                        .forEach((h) => h.classList.remove("sorted"));
+                    th.classList.add("sorted");
+                    const arrow = th.querySelector(".sort-arrow");
+                    if (arrow)
+                        arrow.textContent =
+                            currentSort.dir === "desc" ? "▼" : "▲";
+                    filterAndSort();
+                });
+            });
+
+            document.addEventListener("keydown", (e) => {
+                if (
+                    e.key === "/" &&
+                    document.activeElement !==
+                        document.getElementById("searchInput")
+                ) {
+                    e.preventDefault();
+                    document.getElementById("searchInput").focus();
+                }
+                if (e.key === "Escape") {
+                    document.getElementById("searchInput").blur();
+                    document.getElementById("searchInput").value = "";
+                    searchQuery = "";
+                    filterAndSort();
+                }
+            });
+
+            filterAndSort();
+        </script>
+    </body>
+</html>

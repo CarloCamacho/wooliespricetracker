@@ -1,0 +1,61 @@
+
+================================================================================
+WOOWORTHS PRICE TRACKER - INVOICE BASELINE ANALYSIS
+================================================================================
+
+Generated: 2026-04-29 21:44
+
+SUMMARY
+-------
+Total invoices processed: 6
+Date range: 2025-12-18 to 2026-04-23
+Total line items extracted: 170
+
+ITEMS WITH MULTIPLE INVOICE RECORDS (Trend Analysis Available)
+-------------------------------------------------------------
+  • Mt barker free range roasted carved chicken breast 220g: 6 invoices
+  • Thomas dux camembert cheese 125g: 5 invoices
+  • Woolworths light thickened cream 300ml: 4 invoices
+  • : 4 invoices
+  • Harvey fresh lactose free hilo milk pdm 2l: 4 invoices
+  • Mt barker lemon & herb greek style sliced chicken 220g: 4 invoices
+  • onion shallot french pdm each: 3 invoices
+  • Woolworths mushroom sliced pdm 500g: 3 invoices
+  • Mission low gi wraps wholemeal 6 pack: 3 invoices
+  • Woolworths baby leaf spinach 120g: 3 invoices
+  • Liddells lactose free low fat long life milk uht 1l: 2 invoices
+  • * Nature's gift dog treats mini treats beef liver 130g: 2 invoices
+  • Golden crumpets round 6 pack: 2 invoices
+  • * Coca-cola zero sugar soft drink multipack cans 375ml x 10 pack: 2 invoices
+  • * Bow wow pig ears dog treats 5 pack: 2 invoices
+  • Deep cove sardines in springwater pdm 125g: 2 invoices
+  • Frisp edamame beans pdm 200g: 2 invoices
+  • John west tuna chunks in springwater pdm 95g: 2 invoices
+  • Dairyworks cheddar slices value 32 pack: 2 invoices
+  • * Woolworths asian salad bowl pdm 230g: 2 invoices
+
+PRICE TRENDS IDENTIFIED
+-----------------------
+  ↑ Mt barker free range roasted carved chic: $8.50 → $8.90 (+4.7%)
+  = Thomas dux camembert cheese 125g: $2.70 → $2.70 (+0.0%)
+  = Woolworths light thickened cream 300ml: $3.40 → $3.40 (+0.0%)
+  ↑ : $4.90 → $5.00 (+2.0%)
+  = Harvey fresh lactose free hilo milk pdm : $6.20 → $6.20 (+0.0%)
+  = Mt barker lemon & herb greek style slice: $8.90 → $8.90 (+0.0%)
+  ↓ onion shallot french pdm each: $0.65 → $0.60 (-7.7%)
+  = Woolworths mushroom sliced pdm 500g: $7.00 → $7.00 (+0.0%)
+  ↓ Mission low gi wraps wholemeal 6 pack: $5.50 → $4.50 (-18.2%)
+  = Woolworths baby leaf spinach 120g: $2.70 → $2.70 (+0.0%)
+
+FILES CREATED
+-------------
+• invoice_baseline.json - Raw extracted invoice data
+• price_baseline_by_date.csv - Item prices by invoice date
+• woolies_items_enhanced.json - Items with baseline prices and stats
+• price_baseline_report.txt - This summary
+
+NEXT STEPS
+----------
+1. Run scrape_prices.py to capture current prices
+2. Compare current prices against baseline to identify deals
+3. Set up weekly cron to update prices and track trends

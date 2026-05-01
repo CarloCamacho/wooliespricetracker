@@ -1,0 +1,18 @@
+# Secrets & configs
+config.json
+send_test_email.py
+
+# Invoices (personal data)
+invoice_baseline.json
+*.pdf
+Archive/
+
+# OS files
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+
+# Temp files
+/tmp/
+*.log
